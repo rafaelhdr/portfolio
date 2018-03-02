@@ -22,7 +22,7 @@ Acredito que você pode me conhecer melhor lendo meu código. Por isso que estou
 
 ### Glewlwyd OAuth 2 Server
 
-[GitHub](https://github.com/rafaelhdr/meteor-google-charts)
+[GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
 
 Esse é um projeto desenvolvido em C. Eu portei deploy com Docker.
 
