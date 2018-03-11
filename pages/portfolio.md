@@ -13,9 +13,10 @@ I believe you can know me better if you read my code. That is why I am trying to
 | CI/CD | Recently, started learning automation at my deployments. It is simple, and make me save a lot of time. | [Glewlwyd OAuth 2 Server](#glewlwyd-oauth-2-server) - [rafaelhdr](#rafaelhdr) |
 | Cloud | My servers are all at public clouds (AWS and Digital Ocean). Experience working with EC2, RDS and S3 services. | [rafaelhdr](#rafaelhdr) |
 | Docker | At 2016, I suggested my team to start using Docker, and lead it. Today, I know a lot about it, working with compose and swarm. | [Glewlwyd OAuth 2 Server](#glewlwyd-oauth-2-server) |
-| GraphQL | 2017 was the year I learned it. I liked it with node.js/express as an interface for my microservices. Also made for Java (at my company) and I am learning to deploy it with Golang. | - |
-| MySQL | I use MySQL since my first PHP projects (~2002). Not expert, but I know how to make it works for my projects. | - |
-| Node.js | Started learning at 2015, with a Meteor Project, and used it at my college dissertation. Today, I use it at microservices at the company. | [Meteor Google Charts](#meteor-google-charts) |
+| Golang | Started learning recently (late 2017). I am writing Shereland backend with it. | [Shereland](#shereland) |
+| GraphQL | 2017 was the year I learned it. I liked it with node.js/express as an interface for my microservices. Today I am using it at Shereland | [Shereland](#shereland) |
+| MySQL | I use MySQL since my first PHP projects (~2002). Not expert, but I know how to make it works for my projects. | [Shereland](#shereland) |
+| Node.js | Started learning at 2015, with a Meteor Project, and used it at my college dissertation. | [Meteor Google Charts](#meteor-google-charts) - [Shereland](#shereland) |
 | Python | At 2008, I was learning about web frameworks, working with Python Django. Today, at microservices boom I am using Flask for simple applications. | [Safecar](#safecar) - [USPGrade](#uspgrade) |
 
 ## Open-source projects
@@ -50,10 +51,10 @@ College project using Django. It was an application that communicates with Beagl
 
 College project using Django. Poll for new ideas for the college.
 
-## Closed-source projects
+## Partial open-source projects
 
 ### Shereland
 
-[Website](https://www.shereland.com/)
+[GitLab](https://gitlab.com/shereland) - [Website](https://www.shereland.com/)
 
-A project made together with my girlfriend (she is a journalist, adding a lot of excellent content to it). It was built with Python/Django, but I am migrating it to microservices. I want to make it open-source after the migration.
+A project made together with my girlfriend (she is a journalist, adding a lot of excellent content to it). I wrote about the new Shereland open source at the [blog]({% post_url 2018-03-11-shereland-open-source %}).

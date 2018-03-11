@@ -13,9 +13,10 @@ Acredito que você pode me conhecer melhor lendo meu código. Por isso que estou
 | CI/CD | Recentemente comecei a aprender sobre automação em meus deploys. É simples e me faz economizar bastante tempo. | [Glewlwyd OAuth 2 Server](#glewlwyd-oauth-2-server) - [rafaelhdr](#rafaelhdr) |
 | Cloud | Meus servidores estão todos em Public Cloud (AWS e Digital Ocean). Experiência trabalhando com EC2, RDS e S3. | [rafaelhdr](#rafaelhdr) |
 | Docker | Em 2016, sugeri à minha equipe começar a usar Docker, liderando esse estudo. Hoje, sei bastante sobre ele, trabalhando com compose e swarm. | [Glewlwyd OAuth 2 Server](#glewlwyd-oauth-2-server) |
-| GraphQL | 2017 foi o ano que aprendi. Eu gostei dele com node.js/express como uma interface para meus microserviços. Também desenvolvi para Java (na empresa) e estou aprendendo com Golang. | - |
-| MySQL | Uso MySQL desde meus primeiros projetos em PHP (~2002). Não sou um expert, mas sei fazê-lo funcionar com meus projetos. | - |
-| Node.js | Comecei aprendendo em 2015, com projetos em Meteor, e o usei em meu TCC. Hoje, o uso com microserviços no trabalho. | [Meteor Google Charts](#meteor-google-charts) |
+| Golang | Comecei a aprender recentement (fim de 2017). Estou escrevendo o backend do Shereland com ele. | [Shereland](#shereland) |
+| GraphQL | 2017 foi quando aprendi. Gostei dele com node.js/express como interface para microserviços. Estou usando-o com o Shereland | [Shereland](#shereland) |
+| MySQL | Uso MySQL desde meus primeiros projetos com PHP (~2002). Não sou expert, mas sei fazer funcionar para meus projetos. | [Shereland](#shereland) |
+| Node.js | Comecei a aprender em 2015, com um projeto em Meteor, usando-o para meu TCC. | [Meteor Google Charts](#meteor-google-charts) - [Shereland](#shereland) |
 | Python | Em 2008, estava aprendendo sobre web frameworks, trabalhando com Python Django. Hoje, com o boom de microserviços estou usando Flask para aplicações simples. | [Safecar](#safecar) - [USPGrade](#uspgrade) |
 
 ## Open-source projects
@@ -50,10 +51,10 @@ Projeto de faculdade usando Django. É uma aplicação que se comunica com um Be
 
 Projeto de faculdade usando Django. Votação de novas ideias para a faculdade.
 
-## Closed-source projects
+## Projetos parcialmente open-source
 
 ### Shereland
 
-[Website](https://www.shereland.com/)
+[GitLab](https://gitlab.com/shereland) - [Website](https://www.shereland.com/)
 
-Um projeto que fiz junto de minha namorada (ela é jornalista, colocando conteúdo de excelente qualidade nele). Foi desenvolvido em Python/Django, mas estou migrando para microserviços. Quero fazê-lo open-source após a migração.
+Um projeto que fiz junto de minha namorada (ela é jornalista, colocando conteúdo de excelente qualidade nele). Escrevi sobre o novo Shereland no [blog]({% post_url pt_br/2018-03-11-shereland-open-source %}).
