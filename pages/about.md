@@ -24,5 +24,3 @@ Linux is on my laptop, developing at my Arch Linux using Visual Studio Code for 
 At least, I see how nice is to have a good automation for my work. I am always reading about DevOps and try to make all my deployments automated. I use Docker (a lot) and GitLab - and GitLab Pipeline - for my projects automation.
 
 [Check my portfolio]({% link pages/portfolio.md %})
-
-[Check my portfolio]({% link pages/html-generator.html %})

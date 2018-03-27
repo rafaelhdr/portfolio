@@ -6,7 +6,9 @@ lang: en
 ---
 # Portfolio
 
-I believe you can know me better if you read my code. That is why I am trying to show most of my source-code. Unfortunately, most of my code is not open-source (my company doesn't open it). You can check what I coded at [GitLab](https://gitlab.com/rafaelhdr) and [GitHub](https://github.com/rafaelhdr).
+Below, you can find some of open-source projects that I've contributed to. If you want to, you can follow me at [GitLab](https://gitlab.com/rafaelhdr) and [GitHub](https://github.com/rafaelhdr).
+
+## Index
 
 | Technology | Description | Projects |
 |---|---|---|
@@ -57,4 +59,4 @@ College project using Django. Poll for new ideas for the college.
 
 [GitLab](https://gitlab.com/shereland) - [Website](https://www.shereland.com/)
 
-A project made together with my girlfriend (she is a journalist, adding a lot of excellent content to it). I wrote about the new Shereland open source at the [blog]({% post_url 2018-03-11-shereland-open-source %}).
+A project made together with my girlfriend (she is a journalist, adding a lot of excellent content to it). I wrote about the new Shereland open source at the [blog]({% post_url en/2018-03-11-shereland-open-source %}).

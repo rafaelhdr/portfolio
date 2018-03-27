@@ -6,7 +6,9 @@ lang: pt_br
 ---
 # Portfolio
 
-Acredito que você pode me conhecer melhor lendo meu código. Por isso que estou tentando mostrar todo o possível dele. Infelizmente, a maior parte dele não é código aberto (onde trabalho não se pode disponibilizar). Você pode checar o que desenvolvi em [GitLab](https://gitlab.com/rafaelhdr) e [GitHub](https://github.com/rafaelhdr).
+Abaixo, você pode ver alguns projetos open-source em que contribuí. Se quiser, você pode me seguir em [GitLab](https://gitlab.com/rafaelhdr) e [GitHub](https://github.com/rafaelhdr).
+
+## Índice
 
 | Tecnologia | Descrição | Projetos |
 |---|---|---|
