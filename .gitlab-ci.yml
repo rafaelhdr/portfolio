@@ -1,6 +1,4 @@
 deploy:
   image: jekyll/builder:3.6.2
   script:
-  - gem install jekyll bundler s3_website
-  - bundle install
-  - rake deploy
+  - make deploy
