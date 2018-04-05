@@ -19,8 +19,10 @@ Na faculdade, aprendi tecnologias novas, aprendendo (e amando) Python, desenvolv
 
 Eu ainda gosto de Python (bastante), aprendi node.js, trabalho com Java e estou aprendendo Go.
 
-Linux em meu notebook, desenvolvendo com meu Arch Linux usando Visual Studio Code para codificar. Foi difícil na primeira instalação mas me ensinou muitos conceitos e mantém minha distro atualizada. Nos servidores, gosto de usar Ubuntu, dando bastante estabilidade para meus serviços.
+Eu uso Arch Linux para codificar. Inicialmente, foi difícil, no entanto depois de um período e prática consegui me dar bem com ele.
 
-E finalmente, vejo o quão bom é ter deploy automatizado para meu trabalho. Estou sempre lendo sobre DevOps e tento fazer todos meus deploys automatizados. Uso Docker (e bastante) e GitLab - e GitLab Pipeline - para automação de meus projetos.
+Minha escolha de servidores é o Ubuntu por causa da estabilidade que ele oferece.
+
+Em meu trabalho na Scopus, percebi a importância da automação, e desde então tenho lido bastante sobre DevOps e procuro fazer todos os meus deploys automatizados. Uso Docker (bastante) e GitLab - e GitLab Pipeline - para automação de meus projetos.
 
 [Veja meu portfolio](/pt_br{% link pages/portfolio-pt_br.md %})

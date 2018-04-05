@@ -11,16 +11,18 @@ This is my portfolio website. It is called rafaelhdr - the name that I use on my
 
 ## Past
 
-I am a web developer since 15 years old. That time, I learned to develop at PHP, developing applications locally, uploading with Dreamweaver via FTP and testing on production.
+I have been web developer since the age of 15. I learned how to develop using PHP, developing applications locally, uploading with Dreamweaver via FTP and testing on production.
 
-At college, I learned other technologies, learning (and loving) Python, developing web applications with Django framework. Also started learning about Linux, changing to Ubuntu.
+At college, I learned other technologies, such as Python, developing web applications with Django framework. I learned about Linux specific focused on Ubuntu.
 
 ## Today
 
-I still like python (a lot), learned node.js, work with Java and learning Go.
+I still use python (a lot), learned node.js, also using Java and learning Go.
 
-Linux is on my laptop, developing at my Arch Linux using Visual Studio Code for coding. It was hard my first installation but taught me a lot of concepts and keep my distro updated. At my servers, I like using Ubuntu, giving a lot of stability for services.
+I use Arch Linux for coding. Initially, it was hard to use at first, however, after learning about it and practicing, I was able to get the hang of it.
 
-At least, I see how nice is to have a good automation for my work. I am always reading about DevOps and try to make all my deployments automated. I use Docker (a lot) and GitLab - and GitLab Pipeline - for my projects automation.
+My choice of servers is Ubuntu because of the stability that it offers.
+
+At my workspace in Scopus, I realized the importance of automation, since then I have been reading about DevOps and I try to make all my deployments automated. I use Docker (a lot) and GitLab - and GitLab Pipeline - for my projects automation.
 
 [Check my portfolio]({% link pages/portfolio.md %})
