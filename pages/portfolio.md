@@ -6,7 +6,7 @@ lang: en
 ---
 # Portfolio
 
-Below, you can find some of open-source projects that I've contributed to. If you want to, you can follow me at [GitLab](https://gitlab.com/rafaelhdr) and [GitHub](https://github.com/rafaelhdr).
+Below, you can find some of open-source projects that I've contributed to. If you want to, you can follow me at [GitLab](https://gitlab.com/rafaelhdr), [GitHub](https://github.com/rafaelhdr) and [StackOverflow](https://stackoverflow.com/users/1543364/rafael).
 
 ## Projects
 
