@@ -34,6 +34,14 @@ This project is an OAuth 2 Server made in C. I've ported the application to Dock
 
 Links: [GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
 
+### MySQL Docker Backuper
+
+<span class="portfolio-tag">Docker - MySQL - Shell</span>
+
+Image for backup any MySQL database in a Docker Network exporting to AWS S3.
+
+Links: [GitHub](https://github.com/rafaelhdr/mysql-docker-backuper)
+
 ### Meteor Google Charts
 
 <span class="portfolio-tag">Javascript - Meteor</span>

@@ -34,6 +34,14 @@ Esse é um projeto desenvolvido em C. Eu portei deploy com Docker.
 
 Links: [GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
 
+### MySQL Docker Backuper
+
+<span class="portfolio-tag">Docker - MySQL - Shell</span>
+
+Imagem para backup de banco de dados MySQL dentro de uma Rede Docker exportando para AWS S3.
+
+Links: [GitHub](https://github.com/rafaelhdr/mysql-docker-backuper)
+
 ### Meteor Google Charts
 
 <span class="portfolio-tag">Javascript - Meteor</span>
