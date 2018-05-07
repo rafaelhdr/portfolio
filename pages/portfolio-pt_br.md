@@ -34,6 +34,14 @@ Esse é um projeto desenvolvido em C. Eu portei deploy com Docker.
 
 Links: [GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
 
+### Wall App
+
+<span class="portfolio-tag">Docker - Python/Django - React</span>
+
+Aplicação web para praticar React e Django.
+
+Links: [GitHub](https://github.com/rafaelhdr/portfolio-wall-app)
+
 ### MySQL Docker Backuper
 
 <span class="portfolio-tag">Docker - MySQL - Shell</span>

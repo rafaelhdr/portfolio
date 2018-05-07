@@ -34,6 +34,14 @@ This project is an OAuth 2 Server made in C. I've ported the application to Dock
 
 Links: [GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
 
+### Wall App
+
+<span class="portfolio-tag">Docker - Python/Django - React</span>
+
+Portfolio web application to practise React and Django.
+
+Links: [GitHub](https://github.com/rafaelhdr/portfolio-wall-app)
+
 ### MySQL Docker Backuper
 
 <span class="portfolio-tag">Docker - MySQL - Shell</span>
