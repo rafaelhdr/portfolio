@@ -12,7 +12,7 @@ Below, you can find some of open-source projects that I've contributed to. If yo
 
 ### Shereland
 
-<span class="portfolio-tag">AWS S3 - Docker - GitLab CI - Golang - Grunt - Javascript - Microservices - MySQL - Node.js - PugJS - Python/Django - Redis</span>
+<span class="portfolio-tag">AWS S3 - Docker - GitLab CI - Golang - Grunt - Javascript - Microservices - MySQL - Node.js - PugJS - Python/Django - React - Redis</span>
 
 Hobby website for sharing books with friends. I wrote about the new Shereland open source at the [blog]({% post_url en/2018-03-11-shereland-open-source %}).
 
