@@ -12,7 +12,7 @@ Se você cometeu algum erro em um commit anterior do git e quer editá-lo, você
 
 *Não é recomendado se você já subiu com* `git push`
 
-**tl;dr** `git rebase COMMITHASH`
+**tl;dr** `git rebase -i COMMITHASH`
 
 Vou explicar como fazer com um exemplo completo:
 

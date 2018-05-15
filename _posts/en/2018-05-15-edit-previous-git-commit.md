@@ -12,7 +12,7 @@ If you made a mistake in a previous commit and want to edit it. You can use git 
 
 *Not recommended if you already pushed*
 
-**tl;dr** `git rebase COMMITHASH`
+**tl;dr** `git rebase -i COMMITHASH`
 
 I will explain this command with a full example:
 
