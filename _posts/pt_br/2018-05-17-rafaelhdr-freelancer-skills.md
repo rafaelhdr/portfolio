@@ -22,4 +22,4 @@ Olá, meu nome é Rafael e sou desenvolvedor web desde 2003. Se você está aqui
 
 Já trabalhei com Startups (Dagood, buscador de bares, baladas e restaurantes, e Helpin, para contratar prestadores de serviços) e na área de Inovação (LARC/Scopus, um laboratório da USP desenvolvendo e pesquisando para a Scopus, que é uma empresa parceira do Bradesco).
 
-E-mail: contato arroba rafaelhdr.com.br
+E-mail: [contato@rafaelhdr.com.br]("mailto:contato@rafaelhdr.com.br").

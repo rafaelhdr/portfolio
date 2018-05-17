@@ -22,4 +22,4 @@ Hello, my name is Rafael and I am a web developer since 2003. If you are here, y
 
 I already worked in Startups (Dagood, a search engine for Restaurants, Bars and Clubs, and Helpin, for hiring services) and in Innovation area (LARC/Scopus, a laboratory in USP developing and researching for Scopus, which is a Bradesco company partner).
 
-E-mail: contato at rafaelhdr.com.br
+E-mail: [contato@rafaelhdr.com.br]("mailto:contato@rafaelhdr.com.br").
