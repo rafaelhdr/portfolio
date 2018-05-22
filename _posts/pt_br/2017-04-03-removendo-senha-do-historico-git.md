@@ -10,6 +10,8 @@ lang: pt_br
 
 Imagine que você quer editar o seu histórico do git por algum motivo qualquer (como tirar aquela senha que colocou e não devia). Vou mostrar como é fácil resolver isso.
 
+> Você pode também usar o git rebase. [Veja o post "Editar commit antigo do git"]({% post_url pt_br/2018-05-13-edit-previous-git-commit %})
+
 ## Criando ambiente
 
 Vou gerar alguns commits simples, apenas para simular um ambiente com a senha.
