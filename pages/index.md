@@ -5,19 +5,15 @@ lang: en
 ---
 My name is Rafael. Welcome to my portfolio website.
 
-## I am a freelancer...
+## Just blogging
 
-How can I help you? I know how to develop custom websites with high performance and also automate your deployment (Full-stack and DevOps).
+Normally I do some freelance jobs, but currently not having free time for it.
 
-[Read more about Freelancer]({% post_url en/2018-05-17-rafaelhdr-freelancer-skills %})
-
-## ...and a blogger...
-
-On my spare time, I try to share some interesting stuff about development. I hope I can help someone.
+I have a blot, and I try to post something interesting that might help someone.
 
 [Check the blog posts]({% link pages/blog.md %})
 
-## ...thanks
+## Thanks
 
 Thanks for coming to visit my website.
 
