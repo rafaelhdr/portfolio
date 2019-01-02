@@ -3,3 +3,4 @@
 
 User-agent: *
 Sitemap: https://www.rafaelhdr.com.br/sitemap.xml
+Disallow: /2018/12/23/how-to-make-a-pr.html
