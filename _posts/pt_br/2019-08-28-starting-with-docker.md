@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Começando com Docker"
-date:   2018-08-28 08:00:00 -0300
+date:   2019-08-28 08:00:00 -0300
 categories: docker run
 permalink: blog/starting-with-docker
 lang: pt_br
@@ -161,4 +161,4 @@ Outra possibilidade é rodar 2 containers (por exemplo, um site PHP e um banco d
 
 Isso é interessante para o aprendizado, mas eu prefiro usar o docker-compose para isso.
 
-Mas isso será para outro post. Farei algo similar a esse sobre o `docker-compose`.
+Veja o post sobre [docker-compose]({% post_url pt_br/2019-09-09-learning-docker-compose %}).

@@ -163,4 +163,4 @@ One possible thing to do is to connect 2 containers (for example, a PHP website 
 
 It is interesting for learning, but I prefer using docker-compose for that.
 
-But there is too much in this post. I will do another post like this, but about `docker-compose`.
+Check the post of [docker-compose]({% post_url en/2019-09-09-learning-docker-compose %}).
