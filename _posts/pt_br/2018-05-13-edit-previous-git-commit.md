@@ -3,7 +3,7 @@ layout: post
 title:  "Editar commit antigo do git"
 date:   2018-05-13 18:00:00 -0300
 categories: git rebase
-permalink: blog/edit-git-previous-commit
+permalink: blog/edit-edit-previous-git-commit
 lang: pt_br
 ---
 # Editar commit antigo do git
