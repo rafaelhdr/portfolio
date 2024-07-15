@@ -1,4 +1,4 @@
 deploy:
-  image: jekyll/builder:3.6.2
+  image: jekyll/builder:3.8.6
   script:
   - make deploy
