@@ -1,15 +1,13 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.6.2"
-
-gem "minima", "~> 2.0"
-
+gem "jekyll", "~> 4.3.4"
+gem "webrick", "~> 1.9"
+ 
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.6'
-  gem 's3_website', '~> 3.4'
-  gem 'jekyll-polyglot'
-  gem 'jekyll-redirect-from' 
-  gem 'jekyll-sitemap'
+  gem "minima", "~> 2.5"
+  gem "jekyll-feed", "~> 0.17.0"
+  gem "jekyll-polyglot", "~> 1.9"
+  gem "jekyll-redirect-from", "~> 0.16.0"
+  gem "jekyll-sitemap", "~> 1.4"
+  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 end
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

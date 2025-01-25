@@ -3,7 +3,7 @@ layout: page
 permalink: /
 lang: pt_br
 ---
-Meu nome é Rafael. Seja bem vindo ao meu website de portfolio.
+Seja bem vindo ao meu website de portfolio.
 
 ## Apenas um blog
 

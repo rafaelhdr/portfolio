@@ -1,4 +1,12 @@
+default:
+  image: ruby:3.4.1-bookworm
+
 deploy:
-  image: jekyll/builder:3.8.6
   script:
-  - make deploy
+    - gem install bundler
+    - bundle install
+    - jekyll build -d public
+  pages: true
+  artifacts:
+    paths:
+      - public

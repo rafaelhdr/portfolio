@@ -3,7 +3,7 @@ layout: page
 permalink: /
 lang: en
 ---
-My name is Rafael. Welcome to my portfolio website.
+Welcome to my portfolio website.
 
 ## Just blogging
 
