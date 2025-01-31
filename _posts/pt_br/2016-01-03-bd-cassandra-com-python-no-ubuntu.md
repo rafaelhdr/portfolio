@@ -2,7 +2,7 @@
 layout: post
 title:  "Banco de Dados Cassandra com Python no Ubuntu"
 date:   2016-01-03 22:00:00 -0300
-categories: ubuntu python cassandra database
+categories: ubuntu cassandra db
 permalink: blog/cassandra/bd-cassandra-com-python-no-ubuntu
 lang: pt_br
 ---

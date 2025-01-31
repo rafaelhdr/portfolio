@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  "Django queryset annotated timezone"
 date:   2024-07-15 08:00:00 -0300
-categories: django queryset timezone annotate
+categories: django queryset
 permalink: blog/django-queryset-with-timezones
 lang: en
 ---

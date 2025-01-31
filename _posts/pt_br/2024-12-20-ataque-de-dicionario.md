@@ -2,7 +2,7 @@
 layout: post
 title:  "Como usar ataque de dicionário para quebrar uma senha"
 date:   2024-12-15 14:00:00 0100
-categories: security dictionary-attack owasp
+categories: segurança owasp
 permalink: blog/dictionary-attack
 lang: pt_br
 ---

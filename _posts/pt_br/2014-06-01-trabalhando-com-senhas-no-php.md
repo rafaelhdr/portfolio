@@ -2,7 +2,7 @@
 layout: post
 title:  "Trabalhando com senhas no PHP"
 date:   2014-06-01 12:00:00 -0300
-categories: php senha
+categories: php security
 permalink: blog/php/trabalhando-com-senhas-no-php
 lang: pt_br
 ---

@@ -18,7 +18,7 @@ Hello, my name is Rafael and I am a web developer since 2003. If you are here, y
 
 **DevOps is something that I really enjoy.** I started learning Linux some years ago (~since 2013) and Docker since 2016. Nowadays, I try always develop my projects using [GitLab CI and Docker Swarm](https://gitlab.com/shereland).
 
-[Check my full portfolio]({% link pages/portfolio.md %})
+[Check my full experience]({% link pages/experience.md %})
 
 I already worked in Startups (Dagood, a search engine for Restaurants, Bars and Clubs, and Helpin, for hiring services) and in Innovation area (LARC/Scopus, a laboratory in USP developing and researching for Scopus, which is a Bradesco company partner).
 

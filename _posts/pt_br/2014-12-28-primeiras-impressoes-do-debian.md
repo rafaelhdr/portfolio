@@ -2,7 +2,7 @@
 layout: post
 title:  "Primeiras impressões do Debian"
 date:   2014-12-28 16:00:00 -0300
-categories: debian
+categories: linux debian
 permalink: blog/linux/primeiras-impressoes-do-debian
 lang: pt_br
 ---

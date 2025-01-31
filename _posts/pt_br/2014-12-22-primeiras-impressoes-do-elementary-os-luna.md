@@ -2,7 +2,7 @@
 layout: post
 title:  "Primeiras impressões do Elementary OS Luna"
 date:   2014-12-22 20:30:00 -0300
-categories: linux elementary os luna
+categories: linux elementary-os luna
 permalink: blog/linux/primeiras-impressoes-do-elementary-os-luna
 lang: pt_br
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "How to make a PR"
 date:   2018-12-23 08:00:00 -0300
-categories: git gitlab pull request
+categories: git gitlab
 permalink: blog/how-to-make-a-pr
 lang: pt_br
 ---

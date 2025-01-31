@@ -2,7 +2,7 @@
 layout: post
 title:  "Instalando o Zend Framework 2 no Ubuntu"
 date:   2014-02-02 12:00:00 -0300
-categories: php zend-framework2 ubuntu
+categories: php ubuntu
 permalink: blog/zf2/instalando-o-zend-framework-2-no-ubuntu
 lang: pt_br
 ---

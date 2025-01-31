@@ -1,11 +1,9 @@
 # Personal information
 title: rafaelhdr
-email: contato@rafaelhdr.com.br
+email: site@rafaelhdr.com.br
 description: >-
-  Personal website for rafaelhdr.
-  Developer since 15 years old.
-  Always learning.
-  Likes Linux, DevOps, Python, node.js, Docker and much more.
+  Full Stack Developer DevOps developer<br />
+  Python | Django | Docker | Postgres | Git | Linux
 
 # URL configuration
 baseurl: ""
@@ -27,9 +25,7 @@ default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css"]
 parallel_localization: true
 exclude_from_upload:
-  - s3_website.yml
   - README.md
-  - Rakefile
 
 # Build settings
 markdown: kramdown
@@ -42,6 +38,11 @@ plugins:
 
 # Assets
 defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
   - scope:
       path: "assets/img"
     values:

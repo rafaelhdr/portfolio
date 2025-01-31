@@ -2,7 +2,7 @@
 layout: post
 title:  "Entendendo os parâmetros de python"
 date:   2018-06-05 08:00:00 -0300
-categories: python parameter
+categories: python
 permalink: blog/understanding-python-parameters
 lang: pt_br
 ---

@@ -3,18 +3,9 @@ layout: page
 permalink: /
 lang: pt_br
 ---
-Seja bem vindo ao meu website de portfolio.
 
-## Apenas um blog
+## Olá, eu sou Rafael
 
-Normalmente faço trabalhos como freelancer, mas ultimamente não tenho tempo livre.
+Sou engenheiro de software e gosto de escrever sobre programação, produtividade e vida. Sou do Brasil e atualmente moro na Holanda.
 
-Quando possível, procuro postar algum assunto que possa haver interesse.
-
-[Veja meu blog]({% link pages/blog-pt_br.md %})
-
-## Obrigado
-
-Obrigado por visitar meu site.
-
-E-mail: [contato@rafaelhdr.com.br]("mailto:contato@rafaelhdr.com.br")
+Sou um grande fã de Python, Vim e Linux. Estou sempre tentando melhorar minhas habilidades e compartilhar meu conhecimento com os outros.

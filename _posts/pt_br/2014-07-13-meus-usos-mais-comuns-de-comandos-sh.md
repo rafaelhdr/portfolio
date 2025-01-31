@@ -2,7 +2,7 @@
 layout: post
 title:  "Meus usos mais comuns de comandos SH"
 date:   2014-07-13 12:00:00 -0300
-categories: shell
+categories: linux shell
 permalink: blog/ssh/meus-usos-mais-comuns-de-comandos-sh
 lang: pt_br
 ---

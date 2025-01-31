@@ -2,7 +2,7 @@
 layout: post
 title:  "Starting with Docker"
 date:   2019-08-28 08:00:00 -0300
-categories: docker run
+categories: docker
 permalink: blog/starting-with-docker
 lang: en
 ---

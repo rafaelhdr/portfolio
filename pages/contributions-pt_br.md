@@ -1,20 +1,23 @@
 ---
 layout: page
-title: Portfolio
-permalink: /portfolio
-lang: en
+title: Contribuições
+permalink: /contributions
+lang: pt_br
 ---
-# Portfolio
 
-Below, you can find some of open-source projects that I've contributed to. If you want to, you can follow me at [GitLab](https://gitlab.com/rafaelhdr), [GitHub](https://github.com/rafaelhdr) and [StackOverflow](https://stackoverflow.com/users/1543364/rafael).
+## Projetos
 
-## Projects
+## Back In Time
+
+<span class="portfolio-tag">Python</span>
+
+Contribuí com o projeto Back In Time. É uma ferramenta simples de backup para Linux, inspirada no projeto FlyBack. Ele fornece uma interface simples para configuração e agendamento de backup.
 
 ### Shereland
 
 <span class="portfolio-tag">AWS S3 - Docker - GitLab CI - Golang - Grunt - Javascript - Microservices - MySQL - Node.js - PugJS - Python/Django - React - Redis</span>
 
-Hobby website for sharing books with friends. I wrote about the new Shereland open source at the [blog]({% post_url en/2018-03-11-shereland-open-source %}).
+Website para compartilhamento de livros entre amigos. Escrevi sobre o novo Shereland no [blog]({% post_url pt_br/2018-03-11-shereland-open-source %}).
 
 Links: [GitLab](https://gitlab.com/shereland) - [Website](https://www.shereland.com/)
 
@@ -22,7 +25,7 @@ Links: [GitLab](https://gitlab.com/shereland) - [Website](https://www.shereland.
 
 <span class="portfolio-tag">AWS S3 - GitLab CI - Jekyll</span>
 
-My personal portfolio website. Developed with Jekyll and Continuous Deployment with GitLab Pipeline.
+Meu website pessoal. Desenvolvi com Jekyll e Continuous Deployment com o GitLab Pipeline.
 
 Links: [GitLab](https://gitlab.com/rafaelhdr/site)
 
@@ -30,7 +33,7 @@ Links: [GitLab](https://gitlab.com/rafaelhdr/site)
 
 <span class="portfolio-tag">Docker</span>
 
-This project is an OAuth 2 Server made in C. I've ported the application to Docker.
+Esse é um projeto desenvolvido em C. Eu portei deploy com Docker.
 
 Links: [GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
 
@@ -38,7 +41,7 @@ Links: [GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
 
 <span class="portfolio-tag">Docker - Python/Django - React</span>
 
-Portfolio web application to practise React and Django.
+Aplicação web para praticar React e Django.
 
 Links: [GitHub](https://github.com/rafaelhdr/portfolio-wall-app)
 
@@ -46,7 +49,7 @@ Links: [GitHub](https://github.com/rafaelhdr/portfolio-wall-app)
 
 <span class="portfolio-tag">Docker - MySQL - Shell</span>
 
-Image for backup any MySQL database in a Docker Network exporting to AWS S3.
+Imagem para backup de banco de dados MySQL dentro de uma Rede Docker exportando para AWS S3.
 
 Links: [GitHub](https://github.com/rafaelhdr/mysql-docker-backuper)
 
@@ -54,7 +57,7 @@ Links: [GitHub](https://github.com/rafaelhdr/mysql-docker-backuper)
 
 <span class="portfolio-tag">Javascript - Meteor</span>
 
-Google Charts library I developed for Meteor. +2000 downloads.
+Biblioteca de Google Charts que desenvolvi para Meteor. +2000 downloads.
 
 Links: [Atmosphere JS](https://atmospherejs.com/rafaelhdr/google-charts) - [GitHub](https://github.com/rafaelhdr/meteor-google-charts)
 
@@ -62,7 +65,7 @@ Links: [Atmosphere JS](https://atmospherejs.com/rafaelhdr/google-charts) - [GitH
 
 <span class="portfolio-tag">Python/Django</span>
 
-College project using Django. It was an application that communicates with BeagleBone (simulator of a car).
+Projeto de faculdade usando Django. É uma aplicação que se comunica com um BeagleBone (servindo de simulador para um carro).
 
 Links: [GitHub](https://github.com/rafaelhdr/safecar)
 
@@ -70,6 +73,6 @@ Links: [GitHub](https://github.com/rafaelhdr/safecar)
 
 <span class="portfolio-tag">Python/Django</span>
 
-College project using Django. Poll for new ideas for the college.
+Projeto de faculdade usando Django. Votação de novas ideias para a faculdade.
 
 Links: [GitHub](https://github.com/rafaelhdr/uspgrade)

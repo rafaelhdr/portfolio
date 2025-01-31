@@ -3,22 +3,29 @@
   <center> <a href="/index.html"><div class="site-title">   {{site.title}} </div></a></center>
 </div>
 <div class="wrapper site-description">
-<center>  {{site.description}}</center>
+<center>{{site.description}}</center>
 <center>
   <br />
-  {% for tongue in site.languages %}
-    <a href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.permalink}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.permalink}} {% endif %}"><img src="/assets/img/{{ tongue }}.png" /></a>
-  {% endfor %}</center>
+  {% for lang in site.languages %}
+    &nbsp;<a 
+      {% static_href %}href="{% if lang == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ lang }}{{page.url}}{% endif %}"{% endstatic_href %}
+      rel="alternate"
+      hreflang="{{ lang }}"
+      >
+      <img src="/assets/img/{{ lang }}.png" />
+    </a>&nbsp;
+  {% endfor %}&nbsp;
+  </center>
 </div>
 <div class="wrapper">
   <div class="trigger site-navigation">
-    <a class="page-link" href="{{site.baseurl}}/">HOME</a>
-
-    {% for sitePage in site.pages %}
-    {% if sitePage.title %}
-
-    <span class="exclamationMark">/</span><a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
-    {% endif %}
-    {% endfor %}
+    <center>
+      <a class="page-link" href="{{site.baseurl}}/">HOME</a>
+      {% for sitePage in site.pages %}
+      {% if sitePage.title %}
+      <span class="exclamationMark">/</span><a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+      {% endif %}
+      {% endfor %}
+    </center>
   </div>
 </div>

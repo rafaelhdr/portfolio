@@ -2,7 +2,7 @@
 layout: post
 title:  "Instalar o Doctrine 2 no Zend Framework 2"
 date:   2014-02-06 12:00:00 -0300
-categories: php zend-framework2 doctrine2
+categories: php doctrine2
 permalink: blog/zf2/instalar-doctrine2-no-zend-framework2
 lang: pt_br
 ---

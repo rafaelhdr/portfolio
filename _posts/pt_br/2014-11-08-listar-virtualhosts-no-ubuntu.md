@@ -2,7 +2,7 @@
 layout: post
 title:  "Listar virtualhosts no ubuntu"
 date:   2014-11-08 12:00:00 -0300
-categories: ubuntu apache virtualhosts
+categories: ubuntu apache
 permalink: blog/tips/listar-virtualhosts-no-ubuntu
 lang: pt_br
 ---

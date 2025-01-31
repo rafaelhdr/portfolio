@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  "Dictionary Attack - How to brute force a password"
 date:   2024-12-15 14:00:00 0100
-categories: security dictionary-attack owasp
+categories: security burp
 permalink: blog/dictionary-attack
 lang: en
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Removendo senha do histórico git"
 date:   2017-04-03 20:00:00 -0300
-categories: git senha
+categories: git
 permalink: blog/git/removendo-senha-do-historico-git
 lang: pt_br
 ---

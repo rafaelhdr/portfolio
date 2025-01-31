@@ -2,7 +2,7 @@
 layout: post
 title:  "Básico do Doctrine 2 no ZF2"
 date:   2014-08-24 12:00:00 -0300
-categories: php zend-framework2 doctrine2
+categories: php doctrine2
 permalink: blog/zf2/basico-do-doctrine2-no-zf2
 lang: pt_br
 ---

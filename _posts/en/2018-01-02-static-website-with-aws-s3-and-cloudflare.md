@@ -2,7 +2,7 @@
 layout: post
 title:  "Static website with AWS S3 and CloudFlare"
 date:   2018-01-01 22:00:00 -0300
-categories: aws s3 cloudflare static website
+categories: aws s3 cloudflare
 permalink: blog/static-website-with-aws-s3-and-cloudflare
 lang: en
 ---

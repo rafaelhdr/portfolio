@@ -3,18 +3,9 @@ layout: page
 permalink: /
 lang: en
 ---
-Welcome to my portfolio website.
 
-## Just blogging
+## Hello, I am Rafael
 
-Normally I do some freelance jobs, but currently not having free time for it.
+I am a software engineer, and I like to write about programming, productivity, and life. I am from Brazil, and I am currently living in the Netherlands.
 
-I have a blot, and I try to post something interesting that might help someone.
-
-[Check the blog posts]({% link pages/blog.md %})
-
-## Thanks
-
-Thanks for coming to visit my website.
-
-E-mail: [contato@rafaelhdr.com.br]("mailto:contato@rafaelhdr.com.br").
+I am a big fan of Python, Vim, and Linux. I am always trying to improve my skills and share my knowledge with others.
