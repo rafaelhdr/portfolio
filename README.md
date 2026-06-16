@@ -7,8 +7,7 @@ I published a [post](http://rafaelhdr.com.br/rafaelhdr-new-website-with-jekyll) 
 ## Running local
 
 ```sh
-docker build -t rafaelhdr-site .
-docker run -it --rm -v $(pwd):/app -p 4000:4000 rafaelhdr-site
+docker compose up
 ```
 
 ## Deploying
