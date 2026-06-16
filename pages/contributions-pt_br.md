@@ -7,6 +7,14 @@ lang: pt_br
 
 ## Projetos
 
+## Focus Dive
+
+<span class="portfolio-tag">Python - Kamal - Browser Extension</span>
+
+Criei um temporizador pomodoro e ferramenta de foco para evitar distrações durante sessões de trabalho profundo. Criado para uso pessoal e depois disponibilizado como open source, combinando um backend Python com uma extensão de navegador, deploy em VPS via Kamal.
+
+Links: [GitHub](https://github.com/rafaelhdr/focus-dive-timer) - [Website](https://focusdive.app)
+
 ## Back In Time
 
 <span class="portfolio-tag">Python</span>
