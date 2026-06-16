@@ -168,6 +168,14 @@ body.light {
     border-color: $l-grey-color-light;
   }
 
+  .location-paper {
+    border-color: $l-grey-color-light;
+  }
+
+  .location-paper-right {
+    border-color: $l-grey-color-light;
+  }
+
   .chip {
     background-color: $l-code;
   }
@@ -327,6 +335,14 @@ body.dark {
   }
 
   .skill-card {
+    border-color: $d-grey-color-light;
+  }
+
+  .location-paper {
+    border-color: $d-grey-color-light;
+  }
+
+  .location-paper-right {
     border-color: $d-grey-color-light;
   }
 

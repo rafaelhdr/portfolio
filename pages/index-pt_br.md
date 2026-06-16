@@ -4,9 +4,29 @@ permalink: /
 lang: pt_br
 ---
 
-**Backend Engineer & Tech Lead — Python, Django, PostgreSQL**
+**Backend Engineer & Tech Lead**
 
-🇳🇱 Tilburg, Holanda &nbsp;·&nbsp; <i class="fa fa-cloud"></i> Aberto a oportunidades remotas
+<div class="location-paper">
+  <div class="location-paper-left">
+    <div class="location-paper-item">
+      <i class="fa fa-map-marker"></i>
+      <span>Mora em Tilburg — Holanda</span>
+    </div>
+    <div class="location-paper-item">
+      <i class="fa fa-cloud"></i>
+      <span>Aberto a oportunidades remotas</span>
+    </div>
+  </div>
+  <div class="location-paper-right">
+    <div class="location-paper-item">
+      <i class="fa fa-comments"></i>
+      <span>Fala Inglês &amp; Português</span>
+    </div>
+    <div class="location-paper-item location-paper-sub">
+      <span>een beetje Nederlands</span>
+    </div>
+  </div>
+</div>
 
 Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8 engenheiros. Focado em design de APIs, performance de banco de dados e arquitetura pragmática.
 
