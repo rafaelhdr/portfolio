@@ -1,5 +1,5 @@
 default:
-  image: ruby:3.4.1-bookworm
+  image: ruby:3.4.9-bookworm
 
 deploy:
   script:
