@@ -3,7 +3,16 @@
 
   {% include head.html %}
 
-  <body class="{% if site.theme-dark %} dark {% else %} light {% endif %} ">
+  <body>
+    <script>
+      (function() {
+        var theme = localStorage.getItem('theme');
+        if (!theme) {
+          theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.body.classList.add(theme);
+      })();
+    </script>
 
     {% include header.html %}
 
@@ -14,6 +23,31 @@
     </div>
 
     {% include footer.html %}
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var toggle = document.getElementById('theme-toggle');
+        if (toggle) {
+          toggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            var body = document.body;
+            var current = body.classList.contains('dark') ? 'dark' : 'light';
+            var next = current === 'dark' ? 'light' : 'dark';
+            body.classList.replace(current, next);
+            localStorage.setItem('theme', next);
+            updateToggleIcon(next);
+          });
+          updateToggleIcon(document.body.classList.contains('dark') ? 'dark' : 'light');
+        }
+
+        function updateToggleIcon(theme) {
+          var toggle = document.getElementById('theme-toggle');
+          if (toggle) {
+            toggle.innerHTML = theme === 'dark' ? '&#x2600;&#xFE0F;' : '&#x1F319;';
+          }
+        }
+      });
+    </script>
 
   </body>
 

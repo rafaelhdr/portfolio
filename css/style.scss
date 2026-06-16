@@ -351,6 +351,20 @@ pre {
   font-weight: 300;
   letter-spacing: 1px;
 }
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+.theme-toggle {
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1;
+  &:hover {
+    border-bottom: none;
+  }
+}
 .lang-link {
   text-decoration: none;
   &:hover {
