@@ -448,65 +448,25 @@ pre {
  * Site footer
  */
 .site-footer {
+  padding: 0 0 $spacing-unit 0;
+  text-align: center;
+}
+.footer-divider {
+  border: none;
   border-top: 1px solid;
-  padding: $spacing-unit 0;
+  margin: 0 0 $spacing-unit 0;
 }
-.footer-heading {
-  font-size: 18px;
-  margin-bottom: $spacing-unit / 2;
-}
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
-}
-.small-site-title {
-  font-family: "PT Sans";
-}
-.footer-col-wrapper {
-  font-size: 15px;
-  margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
-}
-.footer-content {
+.footer-tagline {
   font-family: "Josefin Sans";
+  font-size: 14px;
   font-weight: 300;
   letter-spacing: 1px;
+  margin-bottom: 12px;
 }
-.footer-col {
-  float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-}
-.footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width: calc(35% - (#{$spacing-unit} / 2));
-}
-.footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width: calc(20% - (#{$spacing-unit} / 2));
-}
-.footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width: calc(45% - (#{$spacing-unit} / 2));
-}
-@include media-query($on-laptop) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width: calc(50% - (#{$spacing-unit} / 2));
-  }
-  .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width: calc(100% - (#{$spacing-unit} / 2));
-  }
-}
-@include media-query($on-palm) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width: calc(100% - (#{$spacing-unit} / 2));
-  }
+.footer-actions {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 /**
  * Page content
@@ -550,8 +510,7 @@ pre {
   }
 }
 .post-content {
-  margin-bottom: $spacing-unit;
-  padding-bottom: 3em !important;
+  padding-bottom: 2em !important;
   p {
     font-size: 1.5rem;
   }

@@ -1,53 +1,14 @@
 <footer class="site-footer">
-
   <div class="wrapper">
-
-    <h2 class="footer-heading small-site-title">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list footer-content">
-          <li>Powered By <a href="http://github.com/hemangsk/Gravity">Gravity</a></li>
-          <li>Made with <i class="fa fa-heart"></i> on <a href="http://jekyllrb.com"><span>{ { Jekyll } }</a></span></li>
-
-
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2 footer-content">
-        <ul class="social-media-list">
-          {% if site.gitlab_username %}
-          <li>
-            {% include icon-gitlab.html username=site.gitlab_username %}
-          </li>
-          {% endif %}
-            
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-
-          {% if site.stackoverflow_username %}
-          <li>
-            {% include icon-stackoverflow.html username=site.stackoverflow_username number=site.stackoverflow_number %}
-          </li>
-          {% endif %}
-
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3 site-description">
-        <p>{{ site.description }}</p>
-      </div>
+    <hr class="footer-divider">
+    <p class="footer-tagline">{{ site.title }} — Full-Stack Developer with DevOps experience</p>
+    <div class="footer-actions">
+      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer" class="cta-button">
+        <i class="fa fa-github"></i> GitHub
+      </a>
+      <a href="https://linkedin.com/in/rafaelhdr" target="_blank" rel="noopener noreferrer" class="cta-button">
+        <i class="fa fa-linkedin"></i> LinkedIn
+      </a>
     </div>
-
   </div>
-
 </footer>
