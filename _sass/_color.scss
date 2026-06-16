@@ -62,6 +62,12 @@ body.light {
           border-color: darken($l-link-color, 50%);
       }
     }
+    &.cta-button {
+      color: #fff !important;
+      &:hover {
+        color: #2a7ae2 !important;
+      }
+    }
     &.postLink{
       color: darken($l-link-color, 50%) !important;
 
@@ -177,6 +183,12 @@ body.dark {
       &:hover {
           color: $d-text-color;
           border-color: darken($d-link-color, 50%);
+      }
+    }
+    &.cta-button {
+      color: #fff !important;
+      &:hover {
+        color: #2a7ae2 !important;
       }
     }
     &.postLink{
