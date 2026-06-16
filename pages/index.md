@@ -47,5 +47,67 @@ lang: en
   </div>
 </div>
 
-### Focus Dive
-[focusdive.app](https://focusdive.app) — A productivity tool combining a Python backend with a browser extension, deployed on a VPS via Kamal.
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <span class="timeline-year">2025</span>
+      <h3>Focus Dive <a href="https://focusdive.app" class="timeline-link">focusdive.app</a></h3>
+      <span class="timeline-role">Solo Developer</span>
+      <p>Built a <strong>pomodoro timer</strong> and focus tool to avoid distractions during deep work sessions. Created for personal use and later open-sourced, combining a Python backend with a browser extension, deployed on a VPS via Kamal.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <span class="timeline-year">2024</span>
+      <h3>The Silver Logic</h3>
+      <span class="timeline-role">Software Architect, DevOps &amp; Security Lead</span>
+      <p>Led the DevOps team, driving decisions and improvements across the company's infrastructure and CI/CD practices. Introduced automated security scanning with <strong>TruffleHog</strong> and <strong>OWASP ZAP</strong> into CI/CD pipelines. Continued shaping architecture and mentoring engineers across multiple squads.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <span class="timeline-year">2024</span>
+      <h3>Hack Your Future</h3>
+      <span class="timeline-role">Volunteer Mentor</span>
+      <p>Teaching programming to refugees — code review, feedback, and Q&A sessions for new learning modules.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <span class="timeline-year">2022</span>
+      <h3>The Silver Logic</h3>
+      <span class="timeline-role">Software Engineer &amp; Architect</span>
+      <p>Already well recognized in the company and leading the MARS team. Founded the Frontend Community of Practice, later expanding to a Backend CoP, improving knowledge sharing across the organization. Led the migration from virtual machines to a Docker Compose solution for local development, bringing container expertise company-wide. Recognized as <strong>Employee of the Month</strong> for these accomplishments.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <span class="timeline-year">2018</span>
+      <h3>The Silver Logic</h3>
+      <span class="timeline-role">Full-Stack Engineer</span>
+      <p>Joined the company and rapidly grew in <strong>Django</strong> and <strong>React</strong>, mastering <strong>Redux</strong> and <strong>Django REST Framework</strong>. Within one year became the lead developer of the <strong>BodyDetails</strong> project, recognized for developer skills excellence.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <span class="timeline-year">2017</span>
+      <h3>Scopus — Fintech</h3>
+      <span class="timeline-role">Software Engineer</span>
+      <p>Built a Backend-for-Frontend connection for Android using <strong>Express/GraphQL</strong>. Developed micro-services with <strong>Node.js</strong> and <strong>Python (Flask/Django)</strong>. Managed NoSQL databases (<strong>Redis</strong>, <strong>MongoDB</strong>). Set up CI/CD via <strong>GitLab Pipelines</strong>, container orchestration with <strong>Docker Compose</strong> and <strong>Swarm</strong>, deploying to <strong>AWS</strong>.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <span class="timeline-year">2017</span>
+      <h3>B.Sc. Computer Engineering</h3>
+      <span class="timeline-role">Polytechnic School, University of São Paulo (USP)</span>
+      <p>Graduated <strong>with Honours</strong>, ranked in the <strong>Top 5</strong> of the class. Dissertation: indoor location and automation of drones. Key subjects: Data Structures, Languages &amp; Compilers, Software Engineering, Computer Networks, Operating Systems, Information Security.</p>
+    </div>
+  </div>
+</div>

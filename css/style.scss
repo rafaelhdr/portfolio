@@ -716,3 +716,67 @@ pre {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
+
+/**
+ * Timeline
+ */
+.timeline {
+  position: relative;
+  margin: 40px 0 20px 0;
+  padding-left: 28px;
+  border-left: 2px solid;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 36px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -35px;
+  top: 7px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.timeline-year {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.timeline-content {
+  h3 {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  }
+  p {
+    font-size: 1rem;
+    margin-top: 8px;
+    line-height: 1.6;
+  }
+}
+
+.timeline-link {
+  font-size: 0.85rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.timeline-role {
+  display: block;
+  font-size: 14px;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+  margin-bottom: 0;
+}

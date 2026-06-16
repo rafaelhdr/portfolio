@@ -171,6 +171,22 @@ body.light {
   .chip {
     background-color: $l-code;
   }
+
+  .timeline {
+    border-color: $l-grey-color-light;
+  }
+
+  .timeline-item::before {
+    background-color: $l-brand-color;
+  }
+
+  .timeline-year {
+    color: $l-brand-color;
+  }
+
+  .timeline-role {
+    color: $l-grey-color;
+  }
 }
 
 /**
@@ -316,5 +332,21 @@ body.dark {
 
   .chip {
     background-color: $d-code;
+  }
+
+  .timeline {
+    border-color: $d-grey-color-light;
+  }
+
+  .timeline-item::before {
+    background-color: $d-brand-color;
+  }
+
+  .timeline-year {
+    color: $d-brand-color;
+  }
+
+  .timeline-role {
+    color: $d-grey-color;
   }
 }
