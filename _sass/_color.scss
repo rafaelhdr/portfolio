@@ -120,8 +120,16 @@ body.light {
     color: $l-grey-color-dark;
   }
 
-  .site-navigation {
-    color: $l-nav;
+  .site-navigation .page-link {
+    color: $l-text-color;
+  }
+
+  .lang-link {
+    color: $l-link-color;
+    &:hover {
+      color: $l-text-color !important;
+      border-color: $l-grey-color-dark;
+    }
   }
 
   .page-tagline {
@@ -243,8 +251,16 @@ body.dark {
     color: $d-grey-color-light;
   }
 
-  .site-navigation {
-    color: $d-nav;
+  .site-navigation .page-link {
+    color: $d-text-color;
+  }
+
+  .lang-link {
+    color: $d-link-color;
+    &:hover {
+      color: $d-text-color !important;
+      border-color: $d-grey-color-light;
+    }
   }
 
   .page-tagline {

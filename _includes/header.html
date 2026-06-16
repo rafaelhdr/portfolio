@@ -1,31 +1,29 @@
-
 <div class="wrapper">
-  <center> <a href="/index.html"><div class="site-title">   {{site.title}} </div></a></center>
-</div>
-<div class="wrapper site-description">
-<center>{{site.description}}</center>
-<center>
-  <br />
-  {% for lang in site.languages %}
-    &nbsp;<a 
-      {% static_href %}href="{% if lang == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ lang }}{{page.url}}{% endif %}"{% endstatic_href %}
-      rel="alternate"
-      hreflang="{{ lang }}"
-      >
-      <img src="/assets/img/{{ lang }}.png" />
-    </a>&nbsp;
-  {% endfor %}&nbsp;
-  </center>
-</div>
-<div class="wrapper">
-  <div class="trigger site-navigation">
-    <center>
-      <a class="page-link" href="{{site.baseurl}}/">HOME</a>
-      {% for sitePage in site.pages %}
-      {% if sitePage.title %}
-      <span class="exclamationMark">/</span><a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
-      {% endif %}
+  <div class="header-top">
+    <a href="/index.html" class="site-title">{{site.title}}</a>
+    <div class="language-switcher">
+      {% for lang in site.languages %}
+        <a
+          {% static_href %}href="{% if lang == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ lang }}{{page.url}}{% endif %}"{% endstatic_href %}
+          rel="alternate"
+          hreflang="{{ lang }}"
+          class="lang-link">
+          {% if lang == "en" %}
+            🇬🇧 EN
+          {% elsif lang == "pt_br" %}
+            🇧🇷 PT
+          {% endif %}
+        </a>
+        {% unless forloop.last %}<span class="lang-sep">|</span>{% endunless %}
       {% endfor %}
-    </center>
+    </div>
   </div>
+  <nav class="site-navigation">
+    <a class="page-link" href="{{site.baseurl}}/">HOME</a>
+    {% for sitePage in site.pages %}
+    {% if sitePage.title %}
+    <span class="nav-separator">/</span><a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+    {% endif %}
+    {% endfor %}
+  </nav>
 </div>
