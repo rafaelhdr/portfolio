@@ -17,7 +17,6 @@ stackoverflow_username: rafael
 stackoverflow_number:   "1543364"
 disqus:
   shortname: rafaelhdr
-google_analytics: UA-29674358-1
 
 # Polyglot
 languages: ["en", "pt_br"]
