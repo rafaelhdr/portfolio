@@ -676,3 +676,43 @@ pre {
     border-bottom: 1px solid #2a7ae2;
   }
 }
+
+/**
+ * Skills cards
+ */
+.skills-cards {
+  display: flex;
+  gap: 20px;
+  margin: 28px 0 36px 0;
+  @include media-query($on-palm) {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.skill-card {
+  flex: 1;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 20px 24px;
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}

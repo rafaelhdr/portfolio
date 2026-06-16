@@ -163,6 +163,14 @@ body.light {
   .footer-col-wrapper {
     color: $l-grey-color;
   }
+
+  .skill-card {
+    border-color: $l-grey-color-light;
+  }
+
+  .chip {
+    background-color: $l-code;
+  }
 }
 
 /**
@@ -300,5 +308,13 @@ body.dark {
 
   .footer-col-wrapper {
     color: $d-grey-color;
+  }
+
+  .skill-card {
+    border-color: $d-grey-color-light;
+  }
+
+  .chip {
+    background-color: $d-code;
   }
 }
