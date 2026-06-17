@@ -5,7 +5,16 @@ permalink: /contributions
 lang: en
 ---
 
-## Focus Dive
+<div class="contributions-tabs">
+  <button class="contributions-tab-btn active" data-tab="owned">My owned projects</button>
+  <button class="contributions-tab-btn" data-tab="contributed">Contributed to others</button>
+</div>
+
+<div class="tab-content tab-owned active">
+
+<div class="contribution-card" markdown="1">
+
+### Focus Dive
 
 <span class="portfolio-tag">Python - Kamal - Browser Extension</span>
 
@@ -13,15 +22,11 @@ Built a pomodoro timer and focus tool to avoid distractions during deep work ses
 
 Links: [GitHub](https://github.com/rafaelhdr/focus-dive-timer) - [Website](https://focusdive.app)
 
-## Back In Time
+</div>
 
-<span class="portfolio-tag">Python</span>
+<div class="contribution-card" markdown="1">
 
-I've contributed to the Back In Time project. It is a simple backup tool for Linux, inspired by the FlyBack project. It provides a simple interface for backup configuration and scheduling.
-
-Links: [GitHub](https://github.com/bit-team/backintime)
-
-## Shereland
+### Shereland
 
 <span class="portfolio-tag">AWS S3 - Docker - GitLab CI - Golang - Grunt - Javascript - Microservices - MySQL - Node.js - PugJS - Python/Django - React - Redis</span>
 
@@ -29,7 +34,11 @@ Hobby website for sharing books with friends. I wrote about the new Shereland op
 
 Links: [GitLab](https://gitlab.com/shereland) - [Website](https://www.shereland.com/)
 
-## rafaelhdr
+</div>
+
+<div class="contribution-card" markdown="1">
+
+### rafaelhdr
 
 <span class="portfolio-tag">AWS S3 - GitLab CI - Jekyll</span>
 
@@ -37,15 +46,11 @@ My personal portfolio website. Developed with Jekyll and Continuous Deployment w
 
 Links: [GitLab](https://gitlab.com/rafaelhdr/site)
 
-## Glewlwyd OAuth 2 Server
+</div>
 
-<span class="portfolio-tag">Docker</span>
+<div class="contribution-card" markdown="1">
 
-This project is an OAuth 2 Server made in C. I've ported the application to Docker.
-
-Links: [GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
-
-## Wall App
+### Wall App
 
 <span class="portfolio-tag">Docker - Python/Django - React</span>
 
@@ -53,7 +58,11 @@ Portfolio web application to practise React and Django.
 
 Links: [GitHub](https://github.com/rafaelhdr/portfolio-wall-app)
 
-## MySQL Docker Backuper
+</div>
+
+<div class="contribution-card" markdown="1">
+
+### MySQL Docker Backuper
 
 <span class="portfolio-tag">Docker - MySQL - Shell</span>
 
@@ -61,7 +70,11 @@ Image for backup any MySQL database in a Docker Network exporting to AWS S3.
 
 Links: [GitHub](https://github.com/rafaelhdr/mysql-docker-backuper)
 
-## Meteor Google Charts
+</div>
+
+<div class="contribution-card" markdown="1">
+
+### Meteor Google Charts
 
 <span class="portfolio-tag">Javascript - Meteor</span>
 
@@ -69,7 +82,11 @@ Google Charts library I developed for Meteor. +2000 downloads.
 
 Links: [Atmosphere JS](https://atmospherejs.com/rafaelhdr/google-charts) - [GitHub](https://github.com/rafaelhdr/meteor-google-charts)
 
-## Safecar
+</div>
+
+<div class="contribution-card" markdown="1">
+
+### Safecar
 
 <span class="portfolio-tag">Python/Django</span>
 
@@ -77,10 +94,61 @@ College project using Django. It was an application that communicates with Beagl
 
 Links: [GitHub](https://github.com/rafaelhdr/safecar)
 
-## USPGrade
+</div>
+
+<div class="contribution-card" markdown="1">
+
+### USPGrade
 
 <span class="portfolio-tag">Python/Django</span>
 
 College project using Django. Poll for new ideas for the college.
 
 Links: [GitHub](https://github.com/rafaelhdr/uspgrade)
+
+</div>
+
+</div>
+
+<div class="tab-content tab-contributed">
+
+<div class="contribution-card" markdown="1">
+
+### Back In Time
+
+<span class="portfolio-tag">Python</span>
+
+I've contributed to the Back In Time project. It is a simple backup tool for Linux, inspired by the FlyBack project. It provides a simple interface for backup configuration and scheduling.
+
+Links: [GitHub](https://github.com/bit-team/backintime)
+
+</div>
+
+<div class="contribution-card" markdown="1">
+
+### Glewlwyd OAuth 2 Server
+
+<span class="portfolio-tag">Docker</span>
+
+This project is an OAuth 2 Server made in C. I've ported the application to Docker.
+
+Links: [GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
+
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var btns = document.querySelectorAll('.contributions-tab-btn');
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var tab = this.dataset.tab;
+      btns.forEach(function(b) { b.classList.remove('active'); });
+      this.classList.add('active');
+      document.querySelectorAll('.tab-content').forEach(function(c) { c.classList.remove('active'); });
+      document.querySelector('.tab-' + tab).classList.add('active');
+    });
+  });
+});
+</script>

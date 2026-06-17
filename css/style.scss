@@ -903,3 +903,77 @@ body.light .timeline-item[data-company="usp"] .timeline-content {
 body.dark .timeline-item[data-company="usp"] .timeline-content {
   background-color: #1a1e20;
 }
+
+.contributions-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+  border-bottom: 2px solid;
+}
+
+.contributions-tab-btn {
+  padding: 10px 24px;
+  font-size: 15px;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: border-color 0.2s, color 0.2s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &.active {
+    color: #2a7ae2;
+    border-bottom-color: #2a7ae2;
+  }
+}
+
+body.light .contributions-tabs {
+  border-color: $l-grey-color-light;
+}
+
+body.light .contributions-tab-btn {
+  color: $l-grey-color;
+}
+
+body.dark .contributions-tabs {
+  border-color: $d-grey-color-light;
+}
+
+body.dark .contributions-tab-btn {
+  color: $d-grey-color;
+}
+
+.tab-content {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+.contribution-card {
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10), 0 1px 2px rgba(0, 0, 0, 0.06);
+  border: 1px solid;
+
+  h3 {
+    margin-bottom: 8px;
+  }
+}
+
+body.light .contribution-card {
+  background-color: #ffffff;
+  border-color: $l-grey-color-light;
+}
+
+body.dark .contribution-card {
+  background-color: #1e1e1e;
+  border-color: $d-grey-color-light;
+}

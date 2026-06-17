@@ -5,9 +5,16 @@ permalink: /contributions
 lang: pt_br
 ---
 
-## Projetos
+<div class="contributions-tabs">
+  <button class="contributions-tab-btn active" data-tab="owned">Meus projetos</button>
+  <button class="contributions-tab-btn" data-tab="contributed">Contribuições para outros</button>
+</div>
 
-## Focus Dive
+<div class="tab-content tab-owned active">
+
+<div class="contribution-card" markdown="1">
+
+### Focus Dive
 
 <span class="portfolio-tag">Python - Kamal - Browser Extension</span>
 
@@ -15,11 +22,9 @@ Criei um temporizador pomodoro e ferramenta de foco para evitar distrações dur
 
 Links: [GitHub](https://github.com/rafaelhdr/focus-dive-timer) - [Website](https://focusdive.app)
 
-## Back In Time
+</div>
 
-<span class="portfolio-tag">Python</span>
-
-Contribuí com o projeto Back In Time. É uma ferramenta simples de backup para Linux, inspirada no projeto FlyBack. Ele fornece uma interface simples para configuração e agendamento de backup.
+<div class="contribution-card" markdown="1">
 
 ### Shereland
 
@@ -29,6 +34,10 @@ Website para compartilhamento de livros entre amigos. Escrevi sobre o novo Shere
 
 Links: [GitLab](https://gitlab.com/shereland) - [Website](https://www.shereland.com/)
 
+</div>
+
+<div class="contribution-card" markdown="1">
+
 ### rafaelhdr
 
 <span class="portfolio-tag">AWS S3 - GitLab CI - Jekyll</span>
@@ -37,13 +46,9 @@ Meu website pessoal. Desenvolvi com Jekyll e Continuous Deployment com o GitLab 
 
 Links: [GitLab](https://gitlab.com/rafaelhdr/site)
 
-### Glewlwyd OAuth 2 Server
+</div>
 
-<span class="portfolio-tag">Docker</span>
-
-Esse é um projeto desenvolvido em C. Eu portei deploy com Docker.
-
-Links: [GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
+<div class="contribution-card" markdown="1">
 
 ### Wall App
 
@@ -53,6 +58,10 @@ Aplicação web para praticar React e Django.
 
 Links: [GitHub](https://github.com/rafaelhdr/portfolio-wall-app)
 
+</div>
+
+<div class="contribution-card" markdown="1">
+
 ### MySQL Docker Backuper
 
 <span class="portfolio-tag">Docker - MySQL - Shell</span>
@@ -60,6 +69,10 @@ Links: [GitHub](https://github.com/rafaelhdr/portfolio-wall-app)
 Imagem para backup de banco de dados MySQL dentro de uma Rede Docker exportando para AWS S3.
 
 Links: [GitHub](https://github.com/rafaelhdr/mysql-docker-backuper)
+
+</div>
+
+<div class="contribution-card" markdown="1">
 
 ### Meteor Google Charts
 
@@ -69,6 +82,10 @@ Biblioteca de Google Charts que desenvolvi para Meteor. +2000 downloads.
 
 Links: [Atmosphere JS](https://atmospherejs.com/rafaelhdr/google-charts) - [GitHub](https://github.com/rafaelhdr/meteor-google-charts)
 
+</div>
+
+<div class="contribution-card" markdown="1">
+
 ### Safecar
 
 <span class="portfolio-tag">Python/Django</span>
@@ -77,6 +94,10 @@ Projeto de faculdade usando Django. É uma aplicação que se comunica com um Be
 
 Links: [GitHub](https://github.com/rafaelhdr/safecar)
 
+</div>
+
+<div class="contribution-card" markdown="1">
+
 ### USPGrade
 
 <span class="portfolio-tag">Python/Django</span>
@@ -84,3 +105,50 @@ Links: [GitHub](https://github.com/rafaelhdr/safecar)
 Projeto de faculdade usando Django. Votação de novas ideias para a faculdade.
 
 Links: [GitHub](https://github.com/rafaelhdr/uspgrade)
+
+</div>
+
+</div>
+
+<div class="tab-content tab-contributed">
+
+<div class="contribution-card" markdown="1">
+
+### Back In Time
+
+<span class="portfolio-tag">Python</span>
+
+Contribuí com o projeto Back In Time. É uma ferramenta simples de backup para Linux, inspirada no projeto FlyBack. Ele fornece uma interface simples para configuração e agendamento de backup.
+
+Links: [GitHub](https://github.com/bit-team/backintime)
+
+</div>
+
+<div class="contribution-card" markdown="1">
+
+### Glewlwyd OAuth 2 Server
+
+<span class="portfolio-tag">Docker</span>
+
+Esse é um projeto desenvolvido em C. Eu portei deploy com Docker.
+
+Links: [GitHub](https://github.com/rafaelhdr/glewlwyd-oauth2-server)
+
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var btns = document.querySelectorAll('.contributions-tab-btn');
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var tab = this.dataset.tab;
+      btns.forEach(function(b) { b.classList.remove('active'); });
+      this.classList.add('active');
+      document.querySelectorAll('.tab-content').forEach(function(c) { c.classList.remove('active'); });
+      document.querySelector('.tab-' + tab).classList.add('active');
+    });
+  });
+});
+</script>
