@@ -5,6 +5,7 @@ date:   2018-05-13 18:00:00 -0300
 categories: git rebase
 permalink: blog/edit-git-previous-commit
 lang: pt_br
+excerpt: "Ensina como editar um commit antigo do git usando git rebase interativo, com exemplo prático completo."
 ---
 # Editar commit antigo do git
 

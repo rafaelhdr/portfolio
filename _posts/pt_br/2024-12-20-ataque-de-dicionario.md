@@ -5,6 +5,7 @@ date:   2024-12-15 14:00:00 0100
 categories: segurança owasp
 permalink: blog/dictionary-attack
 lang: pt_br
+excerpt: "Demonstra como realizar um ataque de dicionário contra uma página Django para fins educacionais de segurança."
 ---
 # Como realizar um ataque de dicionário para quebrar uma senha
 

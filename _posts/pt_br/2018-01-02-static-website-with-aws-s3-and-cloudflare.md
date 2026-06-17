@@ -5,6 +5,7 @@ date:   2018-01-01 22:00:00 -0300
 categories: aws s3 cloudflare
 permalink: blog/static-website-with-aws-s3-and-cloudflare
 lang: pt_br
+excerpt: "Tutorial de como hospedar um site estático usando AWS S3 com CloudFlare como servidor DNS."
 ---
 # Site estático com AWS S3 e CloudFlare
 

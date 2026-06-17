@@ -5,6 +5,7 @@ date:   2014-04-20 12:00:00 -0300
 categories: mysql script php
 permalink: blog/mysql/dicas-para-script-php-migrando-banco-de-dados
 lang: pt_br
+excerpt: "Dicas para criar scripts PHP de migração de banco de dados MySQL com comandos de conexão e debugging."
 ---
 # Dicas para script php migrando banco de dados mysql
 

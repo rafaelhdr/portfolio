@@ -5,6 +5,7 @@ date:   2014-02-23 18:00:00 -0300
 categories: mysql senha ssh
 permalink: blog/mysql/recuperar-senha-mysql-via-ssh
 lang: pt_br
+excerpt: "Recupere a senha do MySQL interrompendo o serviço e iniciando com skip-grant-tables para acessar sem senha."
 ---
 # Recupere a senha do MySQL
 

@@ -5,6 +5,7 @@ date:   2017-04-03 20:00:00 -0300
 categories: git
 permalink: blog/git/removendo-senha-do-historico-git
 lang: pt_br
+excerpt: "Mostra como remover senhas ou dados sensíveis do histórico de commits do git usando git filter-branch."
 ---
 # Removendo senha do histórico git
 

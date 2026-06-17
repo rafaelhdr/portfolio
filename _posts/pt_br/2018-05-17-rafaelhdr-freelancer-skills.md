@@ -5,6 +5,7 @@ date:   2018-05-17 08:00:00 -0300
 categories: rafaelhdr freelancer
 permalink: blog/rafaelhdr-freelancer-skills
 lang: pt_br
+excerpt: "Apresentação das habilidades do autor como desenvolvedor freelancer, cobrindo backend, frontend e DevOps."
 ---
 # rafaelhdr desenvolvedor freelancer
 

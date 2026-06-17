@@ -904,6 +904,16 @@ body.dark .timeline-item[data-company="usp"] .timeline-content {
   background-color: #1a1e20;
 }
 
+.timeline-item[data-company="blog"] .timeline-content {
+  border-left-color: #2a7ae2;
+}
+body.light .timeline-item[data-company="blog"] .timeline-content {
+  background-color: #e8f0fe;
+}
+body.dark .timeline-item[data-company="blog"] .timeline-content {
+  background-color: #1a2332;
+}
+
 .contributions-tabs {
   display: flex;
   gap: 0;

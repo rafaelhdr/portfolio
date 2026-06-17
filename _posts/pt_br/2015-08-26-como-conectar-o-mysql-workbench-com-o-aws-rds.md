@@ -5,6 +5,7 @@ date:   2015-08-26 21:52:00 -0300
 categories: mysql workbench aws rds
 permalink: blog/mysql/como-conectar-o-mysql-workbench-com-o-aws-rds
 lang: pt_br
+excerpt: "Conecte o MySQL Workbench ao AWS RDS verificando conectividade via terminal e configurando parâmetros de conexão."
 ---
 # Como conectar o MySQL WorkBench com o AWS RDS
 

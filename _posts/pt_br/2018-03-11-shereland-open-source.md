@@ -5,6 +5,7 @@ date:   2018-03-11 12:00:00 -0300
 categories: shereland open-source
 permalink: blog/shereland-open-source
 lang: pt_br
+excerpt: "Apresenta o projeto Shereland, um site de compartilhamento de livros desenvolvido com Django, microserviços, GraphQL e Go."
 ---
 # Shereland open-source
 

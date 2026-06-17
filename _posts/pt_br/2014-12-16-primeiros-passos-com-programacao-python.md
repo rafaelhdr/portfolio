@@ -5,6 +5,7 @@ date:   2014-12-16 18:00:00 -0300
 categories: python
 permalink: blog/python/primeiros-passos-com-programacao-python
 lang: pt_br
+excerpt: "Comece a programar em Python indo além do Hello World, instalando o pip e aprendendo sintaxe básica."
 ---
 # Primeiros passos com programação Python
 

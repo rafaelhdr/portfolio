@@ -5,6 +5,7 @@ date:   2018-05-17 08:00:00 -0300
 categories: rafaelhdr freelancer
 permalink: blog/rafaelhdr-freelancer-skills
 lang: en
+excerpt: "Outlines the author's backend, frontend, and DevOps skills for freelance hiring, covering Python, Node.js, React, and Docker."
 ---
 # rafaelhdr freelancer skills
 

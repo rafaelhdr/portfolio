@@ -5,6 +5,7 @@ date:   2014-02-02 12:00:00 -0300
 categories: php ubuntu
 permalink: blog/zf2/instalando-o-zend-framework-2-no-ubuntu
 lang: pt_br
+excerpt: "Instale o Zend Framework 2 no Ubuntu utilizando Apache, começando pelo skeleton e usando o composer para dependências."
 ---
 # Instale o Zend 2 no Ubuntu rodando com Apache
 

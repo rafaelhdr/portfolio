@@ -5,6 +5,7 @@ date:   2014-06-10 22:00:00 -0300
 categories: rafaelhdr django python
 permalink: blog/about/mais-django-python-no-rafaelhdr
 lang: pt_br
+excerpt: "Conheça o framework Django, suas vantagens como DRY, ORM poderoso e comunidade ativa, usado por Instagram e Pinterest."
 ---
 # Um pouco sobre Django Python
 

@@ -5,6 +5,7 @@ date:   2014-02-12 18:00:00 -0300
 categories: dominio brasil
 permalink: blog/about/como-registrar-dominio-com-br
 lang: pt_br
+excerpt: "Registre seu domínio .com.br no registro.br, criando uma conta e preenchendo seus dados pessoais."
 ---
 # Como registrar um domínio .com.br
 

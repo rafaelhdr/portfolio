@@ -5,6 +5,7 @@ date:   2019-08-28 08:00:00 -0300
 categories: docker
 permalink: blog/starting-with-docker
 lang: en
+excerpt: "Introduces Docker basics: running containers, port mapping, volume mounting, and building custom images with Dockerfiles."
 ---
 # Starting with Docker
 

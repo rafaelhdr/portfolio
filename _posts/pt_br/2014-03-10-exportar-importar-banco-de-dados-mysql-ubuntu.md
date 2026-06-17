@@ -5,6 +5,7 @@ date:   2014-03-10 12:00:00 -0300
 categories: mysql dump ubuntu
 permalink: blog/mysql/exportar-importar-banco-de-dados-mysql-ubuntu
 lang: pt_br
+excerpt: "Use mysqldump para exportar e o comando source para importar bancos de dados MySQL no Ubuntu."
 ---
 # Exportar/importar banco de dados MySQL no Ubuntu
 

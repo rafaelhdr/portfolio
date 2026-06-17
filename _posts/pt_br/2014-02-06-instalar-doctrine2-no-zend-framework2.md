@@ -5,6 +5,7 @@ date:   2014-02-06 12:00:00 -0300
 categories: php doctrine2
 permalink: blog/zf2/instalar-doctrine2-no-zend-framework2
 lang: pt_br
+excerpt: "Instale o Doctrine 2 no ZF2 editando o composer.json para adicionar os módulos de ORM ao projeto."
 ---
 # Ubuntu com Doctrine 2 no Zend Framework 2
 

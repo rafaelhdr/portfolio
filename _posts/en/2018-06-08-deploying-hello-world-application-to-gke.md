@@ -5,6 +5,7 @@ date:   2018-06-08 08:00:00 -0300
 categories: docker kubernetes gke
 permalink: blog/deploying-hello-world-application-to-gke
 lang: en
+excerpt: "Step-by-step guide to deploying a Dockerized hello-world app on Google Kubernetes Engine using gcloud and kubectl."
 ---
 # Deploying a hello world application to GKE
 

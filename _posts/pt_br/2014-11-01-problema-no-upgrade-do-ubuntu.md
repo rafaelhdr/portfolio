@@ -5,6 +5,7 @@ date:   2014-11-01 12:00:00 -0300
 categories: ubuntu upgrade problema
 permalink: blog/bugs/problema-no-upgrade-do-ubuntu
 lang: pt_br
+excerpt: "Resolva o travamento na tela de upgrade do Ubuntu pressionando Tab para liberar o botão de OK."
 ---
 # Problema no upgrade do Ubuntu
 

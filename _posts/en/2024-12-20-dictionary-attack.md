@@ -4,6 +4,7 @@ date:   2024-12-15 14:00:00 0100
 categories: security burp
 permalink: blog/dictionary-attack
 lang: en
+excerpt: "Demonstration on performing a dictionary attack using Burp Suite against a Django login, with countermeasure suggestions."
 ---
 # How to Perform a Dictionary Attack to Crack a Password
 

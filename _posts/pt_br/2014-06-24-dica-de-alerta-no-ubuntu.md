@@ -5,6 +5,7 @@ date:   2014-06-24 12:00:00 -0300
 categories: ubuntu alert
 permalink: blog/about/dica-de-alerta-no-ubuntu
 lang: pt_br
+excerpt: "Use alert fim após comandos demorados no terminal do Ubuntu para receber notificação quando a tarefa terminar."
 ---
 # Dica de alerta no Ubuntu
 

@@ -10,22 +10,25 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
+    <div class="timeline">
       {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+      <div class="timeline-item" data-company="blog">
+        <div class="timeline-content">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="timeline-year">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if post.categories -%}
+            <span class="timeline-role">{{ post.categories | join: ", " }}</span>
+          {%- endif -%}
+          <p>{{ post.excerpt | strip_html | truncate: 300 }}</p>
+        </div>
+      </div>
       {%- endfor -%}
-    </ul>
+    </div>
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}

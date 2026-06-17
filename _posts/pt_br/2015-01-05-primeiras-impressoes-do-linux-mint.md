@@ -5,6 +5,7 @@ date:   2015-01-05 15:30:00 -0300
 categories: linux mint
 permalink: blog/linux/primeiras-impressoes-do-linux-mint
 lang: pt_br
+excerpt: "Avaliação do Linux Mint com Cinnamon: boa para iniciantes, mas performance inferior e alguns problemas com PPAs."
 ---
 # Primeiras impressões do Linux Mint
 

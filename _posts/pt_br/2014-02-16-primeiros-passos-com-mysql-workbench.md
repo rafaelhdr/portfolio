@@ -5,6 +5,7 @@ date:   2014-02-16 12:00:00 -0300
 categories: mysql workbench
 permalink: blog/mysql/primeiros-passos-com-mysql-workbench
 lang: pt_br
+excerpt: "Aprenda a usar o MySQL Workbench para criar modelos visuais de banco de dados com relacionamentos e restrições."
 ---
 # Entenda rápido como começar com o MySQL Workbench
 

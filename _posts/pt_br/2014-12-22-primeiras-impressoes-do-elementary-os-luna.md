@@ -5,6 +5,7 @@ date:   2014-12-22 20:30:00 -0300
 categories: linux elementary-os luna
 permalink: blog/linux/primeiras-impressoes-do-elementary-os-luna
 lang: pt_br
+excerpt: "Avaliação do Elementary OS Luna: um Ubuntu com visual de Mac OS, boa comunidade, mas baseado em versão antiga."
 ---
 # Primeiras impressões do Elementary OS Luna
 

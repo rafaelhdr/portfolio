@@ -5,6 +5,7 @@ date:   2014-11-08 12:00:00 -0300
 categories: ubuntu apache
 permalink: blog/tips/listar-virtualhosts-no-ubuntu
 lang: pt_br
+excerpt: "Use apache2ctl -S para listar todos os virtualhosts configurados no Apache e identificar problemas."
 ---
 # Listar virtualhosts no ubuntu
 

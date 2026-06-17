@@ -5,6 +5,7 @@ date:   2014-10-25 12:00:00 -0300
 categories: python cep correios
 permalink: blog/python/pegar-cep-do-site-dos-correios-em-python
 lang: pt_br
+excerpt: "Crie um script Python com requests e BeautifulSoup para buscar endereço a partir do CEP no site dos Correios."
 ---
 # Pegar cep do site dos correios em python
 

@@ -5,6 +5,7 @@ date:   2014-06-01 12:00:00 -0300
 categories: php security
 permalink: blog/php/trabalhando-com-senhas-no-php
 lang: pt_br
+excerpt: "Use password_hash com BCRYPT para gerar senhas seguras no PHP, evitando hashes fracos como MD5 ou SHA1."
 ---
 # Trabalhando com senhas no PHP
 

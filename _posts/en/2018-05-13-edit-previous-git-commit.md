@@ -5,6 +5,7 @@ date:   2018-05-13 18:00:00 -0300
 categories: git rebase
 permalink: blog/edit-git-previous-commit
 lang: en
+excerpt: "Teaches how to edit a previous git commit using interactive rebase, with a full example of fixing a mistaken password in history."
 ---
 # Edit git previous commit
 

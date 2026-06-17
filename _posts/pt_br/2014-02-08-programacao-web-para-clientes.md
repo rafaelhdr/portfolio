@@ -5,6 +5,7 @@ date:   2014-02-08 12:00:00 -0300
 categories: web clientes
 permalink: blog/about/programacao-web-para-clientes
 lang: pt_br
+excerpt: "Entenda o básico sobre domínio e servidor antes de contratar um desenvolvedor para criar seu site."
 ---
 # Veja o básico antes de contratar um freelancer
 

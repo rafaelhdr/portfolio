@@ -5,6 +5,7 @@ date:   2017-01-06 17:00:00 -0300
 categories: git bisect
 permalink: blog/git/usando-git-bisect-para-descobrir-origem-de-bug
 lang: pt_br
+excerpt: "Ensina a usar git bisect para encontrar o commit exato que introduziu um bug no código."
 ---
 # Usando o git Bisect para descobrir origem de bug
 

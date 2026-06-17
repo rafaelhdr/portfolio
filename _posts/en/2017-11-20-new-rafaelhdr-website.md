@@ -5,6 +5,7 @@ date:   2017-11-20 20:00:00 -0300
 categories: rafaelhdr jekyll
 permalink: rafaelhdr-new-website-with-jekyll
 lang: en
+excerpt: "Explains the migration from WordPress/Django to Jekyll for a bilingual, open-source personal website with CI/CD and S3 hosting."
 ---
 # New rafaelhdr
 

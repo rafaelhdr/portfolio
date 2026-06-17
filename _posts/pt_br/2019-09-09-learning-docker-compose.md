@@ -5,6 +5,7 @@ date:   2019-09-09 08:00:00 -0300
 categories: docker compose
 permalink: blog/learning-docker-compose
 lang: pt_br
+excerpt: "Ensina docker-compose criando do zero uma aplicação web Flask com banco de dados MariaDB."
 ---
 # Aprendendo docker compose
 

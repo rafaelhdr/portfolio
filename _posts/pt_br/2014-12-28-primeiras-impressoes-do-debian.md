@@ -5,6 +5,7 @@ date:   2014-12-28 16:00:00 -0300
 categories: linux debian
 permalink: blog/linux/primeiras-impressoes-do-debian
 lang: pt_br
+excerpt: "Avaliação do Debian: sistema mais cru que Ubuntu, exigindo configurações manuais como sudo e drivers de wifi."
 ---
 # Primeiras impressões do Debian
 

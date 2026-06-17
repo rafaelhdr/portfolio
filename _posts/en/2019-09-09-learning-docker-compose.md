@@ -5,6 +5,7 @@ date:   2019-09-09 08:00:00 -0300
 categories: docker compose
 permalink: blog/learning-docker-compose
 lang: en
+excerpt: "Builds a Flask + MariaDB application with docker-compose, explaining services, networks, volumes, and multi-container orchestration."
 ---
 # Learning docker compose
 

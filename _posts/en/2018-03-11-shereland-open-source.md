@@ -5,6 +5,7 @@ date:   2018-03-11 12:00:00 -0300
 categories: shereland open-source
 permalink: blog/shereland-open-source
 lang: en
+excerpt: "Announces a book-sharing web app rebuilt with microservices, GraphQL, and Go, using 8 Docker images orchestrated together."
 ---
 # Shereland open-source
 

@@ -5,6 +5,7 @@ date:   2018-06-05 08:00:00 -0300
 categories: python
 permalink: blog/understanding-python-parameters
 lang: en
+excerpt: "Walks through Python function parameters — positional, keyword-only, *args, **kwargs — using a full_profile example to explain each."
 ---
 # Understanding Python parameters
 

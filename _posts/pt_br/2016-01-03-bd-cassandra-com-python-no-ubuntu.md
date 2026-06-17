@@ -5,6 +5,7 @@ date:   2016-01-03 22:00:00 -0300
 categories: ubuntu cassandra db
 permalink: blog/cassandra/bd-cassandra-com-python-no-ubuntu
 lang: pt_br
+excerpt: "Primeiros passos para começar a aprender sobre o Banco de Dados Cassandra, incluindo instalação no Ubuntu e acesso com Python."
 ---
 # Banco de Dados Cassandra com Python no Ubuntu
 

@@ -5,6 +5,7 @@ date:   2015-01-20 15:30:00 -0300
 categories: linux slackware deepin
 permalink: blog/about/fim-da-serie-de-primeiras-impressoes-de-distros
 lang: pt_br
+excerpt: "Encerramento da série de testes de distribuições Linux após frustrações com Deepin e Slackware."
 ---
 # Fim da série de primeiras impressões de Distros
 

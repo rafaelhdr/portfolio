@@ -5,6 +5,7 @@ date:   2019-08-28 08:00:00 -0300
 categories: docker
 permalink: blog/starting-with-docker
 lang: pt_br
+excerpt: "Explica os fundamentos do Docker, focando no comando run e truques básicos para começar a usar containers."
 ---
 # Como fazer um PR
 

@@ -5,6 +5,7 @@ date:   2014-03-30 23:00:00 -0300
 categories: responsivo
 permalink: blog/about/4-motivos-para-fazer-seu-site-responsivo
 lang: pt_br
+excerpt: "Conheça quatro motivos para investir em um site responsivo que se adapta a celulares, tablets e desktops."
 ---
 # 4 motivos para fazer seu site responsivo
 

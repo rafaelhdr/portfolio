@@ -4,6 +4,7 @@ date:   2024-07-15 08:00:00 -0300
 categories: django queryset
 permalink: blog/django-queryset-with-timezones
 lang: en
+excerpt: "Demonstrates how to annotate a Django queryset with timezone-aware timestamps from naive date/time fields using RawSQL."
 ---
 # Django queryset annotated timezone
 

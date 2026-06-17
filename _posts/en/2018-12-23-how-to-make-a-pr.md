@@ -5,6 +5,7 @@ date:   2018-12-23 08:00:00 -0300
 categories: git
 permalink: blog/how-to-make-a-pr
 lang: en
+excerpt: "Shows how to create a pull request on GitLab, covering branch creation, committing changes, and submitting the merge request."
 ---
 # How to make a PR
 

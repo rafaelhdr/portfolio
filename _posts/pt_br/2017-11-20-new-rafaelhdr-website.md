@@ -5,6 +5,7 @@ date:   2017-11-20 20:00:00 -0300
 categories: rafaelhdr jekyll
 permalink: rafaelhdr-new-website-with-jekyll
 lang: pt_br
+excerpt: "Explica a migração do site rafaelhdr para Jekyll, destacando vantagens como ser open-source, barato e versionado."
 ---
 # Novo rafaelhdr
 

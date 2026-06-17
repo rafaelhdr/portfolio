@@ -5,6 +5,7 @@ date:   2014-06-22 12:00:00 -0300
 categories: django sitemap
 permalink: blog/python-django/sitemap-facil-com-django
 lang: pt_br
+excerpt: "Crie um sitemap.xml no Django usando classes Sitemap para listar posts e páginas estáticas do blog."
 ---
 # Sitemap fácil com Django
 

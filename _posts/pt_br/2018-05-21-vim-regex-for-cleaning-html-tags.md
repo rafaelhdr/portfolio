@@ -5,6 +5,7 @@ date:   2018-05-21 18:00:00 -0300
 categories: vim regex html tag
 permalink: blog/vim-regex-for-cleaning-html-tags
 lang: pt_br
+excerpt: "Demonstra como usar substituições com regex no VIM para extrair valores específicos de tags HTML em arquivos grandes."
 ---
 # VIM para limpar tags HTML
 

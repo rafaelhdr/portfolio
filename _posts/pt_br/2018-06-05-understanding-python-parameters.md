@@ -5,6 +5,7 @@ date:   2018-06-05 08:00:00 -0300
 categories: python
 permalink: blog/understanding-python-parameters
 lang: pt_br
+excerpt: "Explica os tipos de parâmetros em Python (posicionais, keyword, *args, **kwargs) com exemplos progressivos."
 ---
 # Entendendo os parâmetros de python
 

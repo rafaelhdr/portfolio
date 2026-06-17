@@ -5,6 +5,7 @@ date:   2018-01-01 22:00:00 -0300
 categories: aws s3 cloudflare
 permalink: blog/static-website-with-aws-s3-and-cloudflare
 lang: en
+excerpt: "Tutorial on hosting a static website using AWS S3 with CloudFlare DNS, covering bucket setup and domain configuration."
 ---
 # Static website with AWS S3 and CloudFlare
 

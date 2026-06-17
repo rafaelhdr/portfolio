@@ -5,6 +5,7 @@ date:   2014-02-04 12:00:00 -0300
 categories: php zend-framework2 json
 permalink: blog/zf2/retornar-json-com-zf2
 lang: pt_br
+excerpt: "Configure o Zend Framework 2 para retornar respostas em JSON, útil para puxar dados do servidor via JQuery."
 ---
 # JSON com o ZF2
 

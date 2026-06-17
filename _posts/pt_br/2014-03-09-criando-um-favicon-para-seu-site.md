@@ -5,6 +5,7 @@ date:   2014-03-09 20:00:00 -0300
 categories: favicon
 permalink: blog/about/criando-um-favicon-para-seu-site
 lang: pt_br
+excerpt: "Crie um favicon para seu site usando favicon.cc ou Gimp, facilitando o reconhecimento no navegador dos visitantes."
 ---
 # Adicione favicon ao seu site
 

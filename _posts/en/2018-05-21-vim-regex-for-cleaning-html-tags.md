@@ -5,6 +5,7 @@ date:   2018-05-21 18:00:00 -0300
 categories: vim regex html
 permalink: blog/vim-regex-for-cleaning-html-tags
 lang: en
+excerpt: "Shows how to use vim regex substitution to delete non-matching lines and extract href values from HTML anchor tags."
 ---
 # VIM for cleaning HTML tags
 

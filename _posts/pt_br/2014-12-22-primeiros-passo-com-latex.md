@@ -5,6 +5,7 @@ date:   2014-12-22 11:00:00 -0300
 categories: latex
 permalink: blog/latex/primeiros-passo-com-latex
 lang: pt_br
+excerpt: "Aprenda LaTeX para criar documentos PDF bonitos sem se preocupar com estética, usando o editor Gummi no Ubuntu."
 ---
 # Primeiros passos com LaTeX
 
