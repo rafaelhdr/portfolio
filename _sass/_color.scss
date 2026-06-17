@@ -184,6 +184,10 @@ body.light {
     border-color: $l-grey-color-light;
   }
 
+  .timeline-content {
+    background-color: #ffffff;
+  }
+
   .timeline-item::before {
     background-color: $l-brand-color;
   }
@@ -352,6 +356,10 @@ body.dark {
 
   .timeline {
     border-color: $d-grey-color-light;
+  }
+
+  .timeline-content {
+    background-color: #242424;
   }
 
   .timeline-item::before {

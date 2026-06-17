@@ -68,7 +68,7 @@ Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8
 </div>
 
 <div class="timeline">
-  <div class="timeline-item">
+  <div class="timeline-item" data-company="focus-dive">
     <div class="timeline-content">
       <span class="timeline-year">2025</span>
       <h3>Focus Dive <a href="https://focusdive.app" class="timeline-link">focusdive.app</a></h3>
@@ -77,7 +77,7 @@ Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" data-company="silver-logic">
     <div class="timeline-content">
       <span class="timeline-year">2024</span>
       <h3>The Silver Logic</h3>
@@ -86,7 +86,7 @@ Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" data-company="hack-your-future">
     <div class="timeline-content">
       <span class="timeline-year">2024</span>
       <h3>Hack Your Future</h3>
@@ -95,7 +95,7 @@ Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" data-company="silver-logic">
     <div class="timeline-content">
       <span class="timeline-year">2022</span>
       <h3>The Silver Logic</h3>
@@ -104,7 +104,7 @@ Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" data-company="silver-logic">
     <div class="timeline-content">
       <span class="timeline-year">2018</span>
       <h3>The Silver Logic</h3>
@@ -113,7 +113,7 @@ Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" data-company="scopus">
     <div class="timeline-content">
       <span class="timeline-year">2017</span>
       <h3>Scopus — Fintech</h3>
@@ -122,7 +122,7 @@ Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" data-company="usp">
     <div class="timeline-content">
       <span class="timeline-year">2017</span>
       <h3>Bacharel em Eng. de Computação</h3>

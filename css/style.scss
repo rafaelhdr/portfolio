@@ -805,7 +805,7 @@ pre {
   content: "";
   position: absolute;
   left: -35px;
-  top: 7px;
+  top: 24px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -822,6 +822,10 @@ pre {
 }
 
 .timeline-content {
+  border-radius: 8px;
+  padding: 16px 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
+  border-left: 3px solid;
   h3 {
     display: inline;
     font-size: 20px;
@@ -848,4 +852,54 @@ pre {
   letter-spacing: 0.5px;
   margin-top: 2px;
   margin-bottom: 0;
+}
+
+.timeline-item[data-company="silver-logic"] .timeline-content {
+  border-left-color: #2a7ae2;
+}
+body.light .timeline-item[data-company="silver-logic"] .timeline-content {
+  background-color: #e8f0fe;
+}
+body.dark .timeline-item[data-company="silver-logic"] .timeline-content {
+  background-color: #1a2332;
+}
+
+.timeline-item[data-company="focus-dive"] .timeline-content {
+  border-left-color: #00897b;
+}
+body.light .timeline-item[data-company="focus-dive"] .timeline-content {
+  background-color: #e0f2f1;
+}
+body.dark .timeline-item[data-company="focus-dive"] .timeline-content {
+  background-color: #1a2e2c;
+}
+
+.timeline-item[data-company="hack-your-future"] .timeline-content {
+  border-left-color: #f57c00;
+}
+body.light .timeline-item[data-company="hack-your-future"] .timeline-content {
+  background-color: #fff3e0;
+}
+body.dark .timeline-item[data-company="hack-your-future"] .timeline-content {
+  background-color: #261f0e;
+}
+
+.timeline-item[data-company="scopus"] .timeline-content {
+  border-left-color: #7b1fa2;
+}
+body.light .timeline-item[data-company="scopus"] .timeline-content {
+  background-color: #f3e5f5;
+}
+body.dark .timeline-item[data-company="scopus"] .timeline-content {
+  background-color: #1e1826;
+}
+
+.timeline-item[data-company="usp"] .timeline-content {
+  border-left-color: #546e7a;
+}
+body.light .timeline-item[data-company="usp"] .timeline-content {
+  background-color: #eceff1;
+}
+body.dark .timeline-item[data-company="usp"] .timeline-content {
+  background-color: #1a1e20;
 }
