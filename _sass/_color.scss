@@ -108,27 +108,40 @@ body.light {
   }
 
   /**
-   * Site header
+   * Site header (always dark in both themes)
    */
   .site-header {
-    border-top-color: $l-grey-color-dark;
-    border-bottom-color: $l-grey-color-light;
+    border-top-color: $l-brand-color;
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+    background-color: #1a1f2e;
+  }
+
+  .site-header a {
+    color: #ccd5e0 !important;
+    &:hover {
+      color: #ffffff !important;
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+    &.page-link:hover {
+      color: #ffffff !important;
+      border-color: rgba(255, 255, 255, 0.3);
+    }
   }
 
   .site-title,
   .site-title:visited {
-    color: $l-grey-color-dark;
+    color: #ffffff !important;
   }
 
   .site-navigation .page-link {
-    color: $l-text-color;
+    color: #ccd5e0 !important;
   }
 
   .lang-link {
-    color: $l-link-color;
+    color: #b0bac8 !important;
     &:hover {
-      color: $l-text-color !important;
-      border-color: $l-grey-color-dark;
+      color: #ffffff !important;
+      border-color: rgba(255, 255, 255, 0.3);
     }
   }
 
@@ -275,27 +288,40 @@ body.dark {
   }
 
   /**
-   * Site header
+   * Site header (always dark in both themes)
    */
   .site-header {
-    border-top-color: $d-grey-color-dark;
-    border-bottom-color: $d-grey-color-light;
+    border-top-color: $d-brand-color;
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+    background-color: #1a1f2e;
+  }
+
+  .site-header a {
+    color: #ccd5e0 !important;
+    &:hover {
+      color: #ffffff !important;
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+    &.page-link:hover {
+      color: #ffffff !important;
+      border-color: rgba(255, 255, 255, 0.3);
+    }
   }
 
   .site-title,
   .site-title:visited {
-    color: $d-grey-color-light;
+    color: #ffffff !important;
   }
 
   .site-navigation .page-link {
-    color: $d-text-color;
+    color: #ccd5e0 !important;
   }
 
   .lang-link {
-    color: $d-link-color;
+    color: #b0bac8 !important;
     &:hover {
-      color: $d-text-color !important;
-      border-color: $d-grey-color-light;
+      color: #ffffff !important;
+      border-color: rgba(255, 255, 255, 0.3);
     }
   }
 
