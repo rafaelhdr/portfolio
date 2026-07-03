@@ -10,7 +10,7 @@
 $l-text-color:       #111;
 $l-link-color:       #aaa;
 $l-background-color: #fdfdfd;
-$l-brand-color:      #2a7ae2;
+$l-brand-color:      #0f766e;
 $l-grey-color:       #828282;
 $l-grey-color-light: lighten($l-grey-color, 40%);
 $l-grey-color-dark:  darken($l-grey-color, 25%);
@@ -25,7 +25,7 @@ $l-page: $l-link-color;
 $d-text-color:       #e7e7e7;
 $d-link-color:       #cccccc;
 $d-background-color: #191919;
-$d-brand-color:      #2a7ae2;
+$d-brand-color:      #14b8a6;
 $d-grey-color:       #A7A7A7;
 $d-grey-color-light: lighten($l-grey-color, 40%);
 $d-grey-color-dark:  darken($l-grey-color, 25%);
@@ -65,7 +65,7 @@ body.light {
     &.cta-button {
       color: #fff !important;
       &:hover {
-        color: #2a7ae2 !important;
+        color: #0f766e !important;
       }
     }
     &.postLink{
@@ -111,7 +111,7 @@ body.light {
    * Site header (always dark in both themes)
    */
   .site-header {
-    border-top-color: $l-brand-color;
+    border-top-color: #14b8a6;
     border-bottom-color: rgba(255, 255, 255, 0.08);
     background-color: #1a1f2e;
   }
@@ -249,7 +249,7 @@ body.dark {
     &.cta-button {
       color: #fff !important;
       &:hover {
-        color: #2a7ae2 !important;
+        color: #14b8a6 !important;
       }
     }
     &.postLink{
