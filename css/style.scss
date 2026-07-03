@@ -6,7 +6,9 @@
 
 
 // Our variables
-$base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
+$base-font-family: "DM Sans", Helvetica, Arial, sans-serif;
+$display-font-family: "Fraunces", Georgia, serif;
+$mono-font-family: "IBM Plex Mono", "Menlo", monospace;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -252,7 +254,7 @@ pre {
 }
 
 .post {
-  font-family: "Source Sans Pro";
+  font-family: $base-font-family;
   font-size: 18px;
   font-weight: 300;
   padding-top: 0;
@@ -291,7 +293,7 @@ pre {
   text-indent: 2px;
 }
 .example {
-  font-family: 'Menlo';
+  font-family: $mono-font-family;
   padding: 10px;
 }
 .manual {
@@ -307,9 +309,9 @@ pre {
 .postDate {
   float: left;
   text-transform: uppercase;
-  font-family: "Source Sans Pro";
-  font-size: 16px;
-  font-weight: 300;
+  font-family: $mono-font-family;
+  font-size: 14px;
+  font-weight: 400;
   letter-spacing: 2px;
   text-indent: 2px;
 }
@@ -358,9 +360,10 @@ pre {
 }
 .site-title {
   font-size: 36px;
-  font-weight: 500;
-  font-family: 'PT Sans';
+  font-weight: 600;
+  font-family: $display-font-family;
   text-transform: lowercase;
+  font-style: italic;
 }
 .language-switcher {
   font-family: 'Josefin Sans';
@@ -442,13 +445,13 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: "PT Sans";
+  font-family: $mono-font-family;
   font-size: 12px;
   text-align:center;
 }
 .page-tagline {
   font-size: 18px;
-  font-family: "PT Sans";
+  font-family: $base-font-family;
   text-align: center;
   text-transform: lowercase;
 }
@@ -555,8 +558,8 @@ pre {
   font-size: 62px;
 
   text-align: center;
-  font-family: "PT Sans";
-  font-weight: 900;
+  font-family: $display-font-family;
+  font-weight: 700;
   @include media-query($on-laptop) {
     font-size: 36px;
   }
@@ -716,7 +719,7 @@ pre {
   background-color: #0f766e;
   font-size: 14px;
   color: #FFF !important;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: $base-font-family;
   transition: background-color 200ms, color 200ms;
   i {
     margin-right: 6px;
@@ -743,7 +746,7 @@ pre {
 }
 
 .hero-title {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: $display-font-family;
   font-size: 42px;
   font-weight: 700;
   line-height: 1.1;
@@ -761,18 +764,18 @@ pre {
 }
 
 .hero-stack {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: $base-font-family;
   font-size: 19px;
   font-weight: 300;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   margin: 0;
 }
 
 .hero-since {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 17px;
-  font-weight: 300;
-  letter-spacing: 2px;
+  font-family: $mono-font-family;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #0f766e;
   margin: 0;
@@ -845,8 +848,8 @@ pre {
   display: inline-block;
   padding: 4px 12px;
   border-radius: 16px;
-  font-size: 14px;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-family: $mono-font-family;
   line-height: 1.5;
 }
 
@@ -888,7 +891,7 @@ pre {
   align-items: center;
   gap: 10px;
   font-size: 15px;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: $base-font-family;
   white-space: nowrap;
 }
 
@@ -947,8 +950,8 @@ pre {
 .timeline-year {
   display: inline-block;
   font-size: 13px;
-  font-weight: 600;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-family: $mono-font-family;
   letter-spacing: 1px;
   margin-right: 10px;
   vertical-align: middle;
@@ -967,7 +970,7 @@ pre {
     display: inline;
     font-size: 20px;
     font-weight: 600;
-    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-family: $display-font-family;
   }
   p {
     font-size: 1rem;
@@ -984,8 +987,8 @@ pre {
 
 .timeline-role {
   display: block;
-  font-size: 14px;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-family: $mono-font-family;
   letter-spacing: 0.5px;
   margin-top: 2px;
   margin-bottom: 0;
@@ -1061,7 +1064,7 @@ body.dark .timeline-item[data-company="blog"] .timeline-content {
 .contributions-tab-btn {
   padding: 10px 24px;
   font-size: 15px;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: $base-font-family;
   background: none;
   border: none;
   cursor: pointer;
