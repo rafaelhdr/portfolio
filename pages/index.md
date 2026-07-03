@@ -4,8 +4,6 @@ permalink: /
 lang: en
 ---
 
-**Backend Engineer & Tech Lead**
-
 <div class="location-paper">
   <div class="location-paper-left">
     <div class="location-paper-item">

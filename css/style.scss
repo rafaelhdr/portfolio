@@ -141,7 +141,7 @@ h2 { font-weight: 600; }
 a {
     text-decoration: none;
 
-    &:hover {
+    &:not(.site-title):hover {
         border-bottom: 1px dotted;
     }
 
@@ -357,7 +357,7 @@ pre {
   }
 }
 .site-title {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 500;
   font-family: 'PT Sans';
   text-transform: lowercase;
@@ -372,6 +372,19 @@ pre {
   display: flex;
   align-items: center;
   gap: 0;
+}
+
+.header-nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.header-icon-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .header-cta-btn {
@@ -419,7 +432,7 @@ pre {
   letter-spacing: 2px;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  padding: 0 0 12px 0;
+  padding: 0;
 }
 .nav-separator {
   padding: 0 12px;
@@ -713,6 +726,82 @@ pre {
     color: #2a7ae2 !important;
     text-decoration: none;
     border-bottom: 1px solid #2a7ae2;
+  }
+}
+
+/**
+ * Hero section
+ */
+.hero-band {
+  padding: 40px 0 0 0;
+}
+
+.hero-band .header-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-title {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.hero-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(42, 122, 226, 0.3);
+  padding-bottom: 16px;
+}
+
+.hero-stack {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.hero-since {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #2a7ae2;
+  margin: 0;
+  white-space: nowrap;
+}
+
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hero-title { animation: hero-rise 0.6s ease both; animation-delay: 0.05s; }
+.hero-meta  { animation: hero-rise 0.5s ease both; animation-delay: 0.20s; }
+
+@include media-query($on-palm) {
+  .hero-band  { padding: 28px 0 32px 0; }
+  .hero-title { font-size: 30px; }
+  .hero-meta  { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+
+/**
+ * Header icon links (LinkedIn, CV)
+ */
+.header-icon-link {
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 3px;
+  &:hover {
+    border-bottom: none !important;
   }
 }
 
