@@ -65,6 +65,8 @@ lang: en
   </div>
 </div>
 
+<h2 class="section-heading">Professional History</h2>
+
 <div class="timeline">
   <div class="timeline-item" data-company="focus-dive">
     <div class="timeline-content">
@@ -129,3 +131,5 @@ lang: en
     </div>
   </div>
 </div>
+
+{% include testimonials.html %}

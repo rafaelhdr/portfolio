@@ -1,0 +1,29 @@
+<div class="testimonials-section">
+  <div class="testimonials-header">
+    <h2 class="testimonials-heading">Recommendations</h2>
+    <a href="https://linkedin.com/in/rafaelhdr" target="_blank" rel="noopener noreferrer" class="testimonials-linkedin-link">
+      <i class="fa fa-linkedin"></i> View on LinkedIn
+    </a>
+  </div>
+
+  {% for testimonial in site.data.testimonials %}
+  <div class="testimonial-card">
+    <p class="testimonial-name">{{ testimonial.name }}</p>
+    <blockquote class="testimonial-body-quote">
+      {{ testimonial.body | markdownify }}
+    </blockquote>
+    <button class="testimonial-toggle" aria-expanded="false">Read more ↓</button>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+  document.querySelectorAll('.testimonial-toggle').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var card = btn.closest('.testimonial-card');
+      var expanded = card.classList.toggle('expanded');
+      btn.textContent = expanded ? 'Show less ↑' : 'Read more ↓';
+      btn.setAttribute('aria-expanded', expanded);
+    });
+  });
+</script>

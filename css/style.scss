@@ -567,7 +567,7 @@ pre {
 .post-content {
   padding-bottom: 2em !important;
   p {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
   }
   h2 {
     font-size: 32px;
@@ -1131,4 +1131,92 @@ body.light .contribution-card {
 body.dark .contribution-card {
   background-color: #1e1e1e;
   border-color: $d-grey-color-light;
+}
+
+/**
+ * Section headings
+ */
+.section-heading {
+  font-family: $display-font-family;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 40px 0 20px 0;
+}
+
+/**
+ * Testimonials section
+ */
+.testimonials-section {
+  margin: 40px 0 20px 0;
+}
+
+.testimonials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.testimonials-heading {
+  font-family: $display-font-family;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.testimonials-linkedin-link {
+  font-size: 13px;
+  font-family: $base-font-family;
+  white-space: nowrap;
+}
+
+.testimonial-card {
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  border: 1px solid;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10), 0 1px 2px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease;
+  &:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.10);
+  }
+}
+
+.testimonial-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.testimonial-body-quote {
+  border-left: 3px solid #0f766e;
+  padding-left: 14px;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 1.7;
+  margin: 0;
+  letter-spacing: 0;
+  max-height: 3.6em;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  p {
+    margin-bottom: 10px;
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+.testimonial-card.expanded .testimonial-body-quote {
+  max-height: 2000px;
+}
+
+.testimonial-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: $base-font-family;
+  margin-top: 8px;
+  display: block;
+  &:hover { opacity: 0.75; }
 }

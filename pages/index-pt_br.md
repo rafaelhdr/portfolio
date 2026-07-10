@@ -67,6 +67,8 @@ Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8
   </div>
 </div>
 
+<h2 class="section-heading">Histórico Profissional</h2>
+
 <div class="timeline">
   <div class="timeline-item" data-company="focus-dive">
     <div class="timeline-content">
@@ -131,3 +133,5 @@ Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8
     </div>
   </div>
 </div>
+
+{% include testimonials.html %}

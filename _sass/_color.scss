@@ -216,6 +216,19 @@ body.light {
   .timeline-role {
     color: $l-grey-color;
   }
+
+  .testimonial-card {
+    background-color: #ffffff;
+    border-color: $l-grey-color-light;
+  }
+
+  .testimonial-body-quote {
+    border-left-color: $l-brand-color;
+  }
+
+  .testimonial-toggle {
+    color: $l-brand-color;
+  }
 }
 
 /**
@@ -406,5 +419,18 @@ body.dark {
 
   .timeline-role {
     color: $d-grey-color;
+  }
+
+  .testimonial-card {
+    background-color: #1e1e1e;
+    border-color: $d-grey-color-light;
+  }
+
+  .testimonial-body-quote {
+    border-left-color: $d-brand-color;
+  }
+
+  .testimonial-toggle {
+    color: $d-brand-color;
   }
 }
