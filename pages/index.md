@@ -130,6 +130,24 @@ lang: en
       <p>Graduated <strong>with Honours</strong>, ranked in the <strong>Top 5</strong> of the class. Dissertation: indoor location and automation of drones. Key subjects: Data Structures, Languages &amp; Compilers, Software Engineering, Computer Networks, Operating Systems, Information Security.</p>
     </div>
   </div>
+
+  <div class="timeline-item" data-company="dagood">
+    <div class="timeline-content">
+      <span class="timeline-year">2012</span>
+      <h3>Dagood</h3>
+      <span class="timeline-role">Founder &amp; Web Developer</span>
+      <p>Built a <strong>Yelp-like discovery platform</strong> for São Paulo, surfacing top restaurants, bars, and nightlife venues through a polished UI with intuitive filters. Developed in <strong>PHP Zend Framework</strong>.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item" data-company="first-code">
+    <div class="timeline-content">
+      <span class="timeline-year">2003</span>
+      <h3>First Lines of Code</h3>
+      <span class="timeline-role">Web Developer</span>
+      <p>Began coding alongside my older brother, building websites from scratch with <strong>raw PHP</strong> and <strong>Dreamweaver</strong> — the start of 20+ years in software.</p>
+    </div>
+  </div>
 </div>
 
 {% include testimonials.html %}

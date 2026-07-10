@@ -1054,6 +1054,26 @@ body.dark .timeline-item[data-company="blog"] .timeline-content {
   background-color: #0d2926;
 }
 
+.timeline-item[data-company="dagood"] .timeline-content {
+  border-left-color: #c2185b;
+}
+body.light .timeline-item[data-company="dagood"] .timeline-content {
+  background-color: #fce4ec;
+}
+body.dark .timeline-item[data-company="dagood"] .timeline-content {
+  background-color: #240f18;
+}
+
+.timeline-item[data-company="first-code"] .timeline-content {
+  border-left-color: #2e7d32;
+}
+body.light .timeline-item[data-company="first-code"] .timeline-content {
+  background-color: #e8f5e9;
+}
+body.dark .timeline-item[data-company="first-code"] .timeline-content {
+  background-color: #0e200f;
+}
+
 .contributions-tabs {
   display: flex;
   gap: 0;

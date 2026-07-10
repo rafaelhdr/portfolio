@@ -132,6 +132,24 @@ Mais de 9 anos construindo sistemas em produção com Python. Tech Lead de 4–8
       <p>Graduado <strong>com Honras</strong>, classificado entre os <strong>Top 5</strong> da turma. Dissertação: localização indoor e automação de drones. Principais disciplinas: Estruturas de Dados, Linguagens &amp; Compiladores, Engenharia de Software, Redes de Computadores, Sistemas Operacionais, Segurança da Informação.</p>
     </div>
   </div>
+
+  <div class="timeline-item" data-company="dagood">
+    <div class="timeline-content">
+      <span class="timeline-year">2012</span>
+      <h3>Dagood</h3>
+      <span class="timeline-role">Fundador &amp; Desenvolvedor Web</span>
+      <p>Criei uma <strong>plataforma de descobertas estilo Yelp</strong> para São Paulo, com recomendações de restaurantes, bares e baladas em uma interface bonita e filtros intuitivos. Desenvolvido em <strong>PHP Zend Framework</strong>.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item" data-company="first-code">
+    <div class="timeline-content">
+      <span class="timeline-year">2003</span>
+      <h3>Primeiras Linhas de Código</h3>
+      <span class="timeline-role">Desenvolvedor Web</span>
+      <p>Comecei a programar com meu irmão mais velho, criando sites do zero com <strong>PHP puro</strong> e <strong>Dreamweaver</strong> — o início de mais de 20 anos em software.</p>
+    </div>
+  </div>
 </div>
 
 {% include testimonials.html %}
